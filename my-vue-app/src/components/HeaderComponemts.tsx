@@ -1,27 +1,36 @@
 import "../styless/HeaderStyless.css"
+import { Link } from "react-router-dom";
 
 function HeaderComponemts() {
   return (
     <>
         <nav className="nav">
-            <li className="li">
-                <span className="link">Inicio</span>
+             <li className="li">
+                
+                <Link className="link" to="/">Inicio</Link>
             </li>
-            <li className="li">
-                <span className="link">Sobre el juego</span>
+
+             <li className="li">
+                <Link className="link" to="/SobreEljuego">Sobre el juego</Link>
             </li>
-            <li className="li">
-                <span className="link">DevLog</span>
+
+             <li className="li">
+                <Link className="link" to="/DevLog">DevLog</Link>
             </li>
-            <li className="li">
-                <span className="link">Comunidad</span>
+
+             <li className="li">
+                <Link className="link" to="/Comunidad">Comunidad</Link>
             </li>
-            <li className="li">
-                <span className="link">Descarga</span>
+
+             <li className="li">
+                <Link className="link" to="/Descarga">Descarga</Link>     
             </li>
-            <li className="li">
-                <span className="link">Aviso legal</span>
+
+             <li className="li">
+                <Link className="link" to="/AvisoLegal">Aviso legal</Link>
             </li>
+    
+
         </nav>
         <header className="header">
             <h1 className="title">ShaqVeyter</h1>

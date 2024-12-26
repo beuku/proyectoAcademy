@@ -6,6 +6,12 @@
     padding: 10px;
    
 }
+
+.link {
+    color: #f8dfde   ;
+    text-decoration: none;
+}
+
 .title{
     text-align: center;
     color:#1e9181;
