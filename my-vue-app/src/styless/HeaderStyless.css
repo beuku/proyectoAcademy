@@ -12,9 +12,15 @@
     text-decoration: none;
 }
 
+p h4{
+    text-align:center;
+    color:#f8dfde;
+}
 .title{
     text-align: center;
     color:#1e9181;
+    background-color: rgb(71, 71, 70);  
+    background-image: url("../assets/imagenfondo3.avif");
 }
 .nav{
     display: flex;
