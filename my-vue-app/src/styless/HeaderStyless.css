@@ -19,15 +19,26 @@ p h4{
 .title{
     text-align: center;
     color:#1e9181;
+    
+    
 }
 .nav{
     display: flex;
     background-color:#000000;
 }
 .li{
-    margin: 11px;
+    margin: 30px;
     color: #f8dfde;
+    
 }
+
+img {
+    border-radius: 100px;
+    width: 80px;
+    margin: 10px;
+}
+
+
 img.baner{
     display: block; /* Asegura que se comporta como un bloque */
     width: 100%; /* Ajusta la imagen al ancho completo */
