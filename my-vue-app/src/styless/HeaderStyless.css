@@ -33,8 +33,9 @@ p h4{
 }
 
 img {
-    
-    width: 130px;
+    border-radius: 100px;
+    width: 80px;
+    margin: 10px;
 }
 
 
