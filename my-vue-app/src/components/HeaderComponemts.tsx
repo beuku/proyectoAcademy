@@ -7,9 +7,7 @@ function HeaderComponemts() {
         <nav className="nav">
 
         <img src="src/assets/icono10.png" alt=""></img>
-        
-             <li className="li">
-                
+            <li className="li">
                 <Link className="link" to="/">Inicio</Link>
             </li>
 
@@ -17,22 +15,21 @@ function HeaderComponemts() {
                 <Link className="link" to="/SobreEljuego">Sobre el juego</Link>
             </li>
 
-             <li className="li">
+            <li className="li">
                 <Link className="link" to="/DevLog">DevLog</Link>
             </li>
 
-             <li className="li">
+            <li className="li">
                 <Link className="link" to="/Comunidad">Comunidad</Link>
             </li>
 
-             <li className="li">
+            <li className="li">
                 <Link className="link" to="/Descarga">Descarga</Link>     
             </li>
 
-             <li className="li">
+            <li className="li">
                 <Link className="link" to="/AvisoLegal">Aviso legal</Link>
             </li>
-    
 
         </nav>
         <header className="header">

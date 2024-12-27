@@ -1,5 +1,9 @@
 import "../styless/Footerstyles.css"
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
+import XIcon from '@mui/icons-material/X';
 
 function Footercomponents() {
   return (
@@ -7,14 +11,20 @@ function Footercomponents() {
      <footer className="footer" > 
         <ul className="menu">
 
-          <li className="menu-elem">
-            <a href=""className="menu-icon"> redes </a>
+          <li>
+            <a href=""className="menu-icon"> <FacebookIcon /> </a>
           </li>
-          <li className="menu-elem">
-            <a href=""className="menu-icon"> redes </a>
+          <li >
+            <a href=""className="menu-icon"> <WhatsAppIcon /> </a>
           </li>
-          <li className="menu-elem">
-            <a href=""className="menu-icon"> redes </a>
+          <li >
+            <a href=""className="menu-icon"> <InstagramIcon className="nn"/> </a>
+          </li>
+          <li >
+            <a href=""className="menu-icon"> <EmailIcon /> </a>
+          </li>
+          <li >
+            <a href=""className="menu-icon"> <XIcon /> </a>
           </li>
 
 

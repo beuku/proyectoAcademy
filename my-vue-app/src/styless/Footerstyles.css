@@ -18,3 +18,22 @@ footer{
   gap: 10px;
 
 }
+
+.menu-icon{
+  color: #f8dfde;
+  margin: 0 10px;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+.menu-icon:hover{
+  color: #f8dfde;
+  opacity: 7;
+  transform: translateY(-10px);
+}
+.text{
+  color: #f8dfde;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
