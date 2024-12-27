@@ -30,3 +30,7 @@ p h4{
     margin: 11px;
     color: #f8dfde;
 }
+img.baner{
+    display: block; /* Asegura que se comporta como un bloque */
+    width: 100%; /* Ajusta la imagen al ancho completo */
+}

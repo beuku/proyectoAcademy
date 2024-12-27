@@ -33,6 +33,7 @@ function HeaderComponemts() {
 
         </nav>
         <header className="header">
+            <img className="baner" src="./src/assets/Shaq.png" alt="banner" />
             <h1 className="title">Bienvenido a ShaqVeyter</h1>
             <p>
              <h4> Esta es la pagina oficial del juego el cual esta aun en desarrollo, aqui podras encontrar todo acerca de como vamos avanzando en el desarrollo de la historia y los personajes. </h4>
