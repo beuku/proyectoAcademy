@@ -1,0 +1,32 @@
+
+.header{
+  
+    background-color: rgb(33, 38, 39);
+    color: rgb(31, 31, 26);
+    padding: 10px;
+   
+}
+
+.link {
+    color: #f8dfde   ;
+    text-decoration: none;
+}
+
+p h4{
+    text-align:center;
+    color:#f8dfde;
+}
+.title{
+    text-align: center;
+    color:#1e9181;
+    background-color: rgb(71, 71, 70);  
+    background-image: url("../assets/imagenfondo3.avif");
+}
+.nav{
+    display: flex;
+    background-color:#000000;
+}
+.li{
+    margin: 11px;
+    color: #f8dfde;
+}
