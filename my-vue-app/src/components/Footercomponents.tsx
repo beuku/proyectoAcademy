@@ -1,5 +1,4 @@
 import "../styless/Footerstyles.css"
-import "../styless/Bodystyles.css"
 
 
 function Footercomponents() {

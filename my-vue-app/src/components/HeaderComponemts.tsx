@@ -1,5 +1,4 @@
 import "../styless/HeaderStyless.css"
-import "../styless/Bodystyles.css"
 import { Link } from "react-router-dom";
 
 function HeaderComponemts() {
