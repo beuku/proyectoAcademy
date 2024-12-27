@@ -5,6 +5,8 @@ function HeaderComponemts() {
   return (
     <>
         <nav className="nav">
+
+        <img src="src/assets/icono7.jpg" alt=""></img>
              <li className="li">
                 
                 <Link className="link" to="/">Inicio</Link>
