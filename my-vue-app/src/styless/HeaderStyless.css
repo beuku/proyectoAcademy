@@ -19,14 +19,23 @@ p h4{
 .title{
     text-align: center;
     color:#1e9181;
-    background-color: rgb(71, 71, 70);  
-    background-image: url("../assets/imagenfondo3.avif");
+    
+    
 }
 .nav{
     display: flex;
     background-color:#000000;
 }
 .li{
-    margin: 11px;
+    margin: 30px;
     color: #f8dfde;
+    
 }
+
+img {
+    border-radius: 100px;
+    width: 80px;
+    margin: 10px;
+}
+
+
