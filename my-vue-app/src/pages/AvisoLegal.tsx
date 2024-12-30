@@ -1,3 +1,4 @@
+import Footercomponents from "../components/Footercomponents"
 import HeaderComponemts from "../components/HeaderComponemts"
 
 function AvisoLegal() {
@@ -5,6 +6,7 @@ function AvisoLegal() {
       <>
         <HeaderComponemts />
         <div>PagesInicial</div>
+        <Footercomponents /> 
       </>
     )
   }
