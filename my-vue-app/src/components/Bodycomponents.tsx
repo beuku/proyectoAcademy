@@ -7,7 +7,7 @@ export default function Bodycomponents() {
         <h1> ¡Nuestros enlaces de descarga! </h1>
 
     <h2>
-        <a href="https://store.steampowered.com/?l=spanish">
+        <a href="https://store.steampowered.com/?l=spanish"target="_blank">
         <img src="src/assets/steam.jpg"  width="250"height="250"></img>
         </a>
 
