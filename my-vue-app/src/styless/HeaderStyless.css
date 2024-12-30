@@ -1,13 +1,15 @@
 
 .header{
     background-color:  #546adc;
-    
     padding: 10px;
     margin: 0;
-    position: relative;padding-bottom: 2em; 
+    position: relative;
+    padding-bottom: 2em; 
 }
 
+
 .link {
+    
     color: #f8dfde;
     text-decoration: none;
     display: inline-block;
