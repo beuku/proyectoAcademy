@@ -33,7 +33,7 @@ function HeaderComponemts() {
 
         </nav>
         <header className="header">
-            <img className="baner" src="./src/assets/Shaq.png" alt="banner" />
+            <img className="baner" src="./src/assets/Shaq(2).png" alt="banner" />
             <h1 className="title">Bienvenido a ShaqVeyter</h1>
         <p>
             <h4> 
