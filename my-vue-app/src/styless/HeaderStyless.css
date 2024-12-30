@@ -1,13 +1,15 @@
 
 .header{
-    background-color: rgb(33, 38, 39);
-    color: rgb(31, 31, 26);
+    background-color:  #546adc;
     padding: 10px;
     margin: 0;
-    position: relative;padding-bottom: 2em; 
+    position: relative;
+    padding-bottom: 2em; 
 }
 
+
 .link {
+    
     color: #f8dfde;
     text-decoration: none;
     display: inline-block;
@@ -28,7 +30,7 @@ p h4{
 }
 .title{
     text-align: center;
-    color:#1e9181;
+    color:#f8dfde;
     
     
 }
