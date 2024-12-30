@@ -6,7 +6,7 @@ function HeaderComponemts() {
     <>
         <nav className="nav">
 
-        <img src="src/assets/icono10.png" alt=""></img>
+        <img src="src/assets/icono10.png" alt="" width="80px"></img>
             <li className="li">
                 <Link className="link" to="/">Inicio</Link>
             </li>
