@@ -37,6 +37,7 @@ function HeaderComponemts() {
         </nav>
         <header className="header"><h1 className="title">Bienvenido</h1>
             <img className="baner" src="./src/assets/Cap.png" alt="banner" />
+          
         </header>
     </>
   )
