@@ -8,6 +8,7 @@ import DevLog from './pages/DevLog'
 import Descarga from './pages/Descarga'
 import Comunidad from './pages/Comunidad'
 import AvisoLegal from './pages/AvisoLegal'
+import Registrar from './pages/Registrar'
 
 function App() {
   
@@ -21,6 +22,8 @@ function App() {
         <Route path='/Descarga' element={<Descarga />} />
         <Route path='/Comunidad' element={<Comunidad />} />
         <Route path='/AvisoLegal' element={<AvisoLegal />} />
+        <Route path='/Registrar' element={<Registrar />} />
+
       </Routes>
     </>
   )
