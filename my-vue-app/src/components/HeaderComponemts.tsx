@@ -36,6 +36,7 @@ function HeaderComponemts() {
             <RegitrarComponents />
         </nav>
         <header className="header">
+            <img className="baner" src="./src/assets/Cap.png" alt="banner" />
             <h1 className="title">Bienvenido a ShaqVeyter</h1>
         <p>
             <h4> 
