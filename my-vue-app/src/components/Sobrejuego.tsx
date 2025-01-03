@@ -1,10 +1,20 @@
-import "../styless/Sobrejeugo.css"
+import "../styless/Sobrejuego.css"
+import ReactPlayer from "react-player";
 
-export default function Sobrejuego() {
+function Sobrejuego() {
   return (
 
       <body className="body-sobrejuego">
+
      <h1 className="margen1"> ¡Sobre nuestro juego!</h1>
+     
+      <div className="url">
+        <ReactPlayer url="https://www.youtube.com/watch?v=-U8Hbs0f0Ek"
+        controls
+        height={600}
+        width={940}    
+        />
+      </div>
 
       <h4 > 
         <p className="margen2">
@@ -76,9 +86,13 @@ export default function Sobrejuego() {
         </p>
       
       </h4>
+      
 
-      </body>
+        </body>
 
     
   )
 }
+
+
+export default Sobrejuego;
