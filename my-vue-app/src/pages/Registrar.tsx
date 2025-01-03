@@ -7,27 +7,50 @@ import  { useState } from "react";
 
 
 
+
 function Registrar() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const collectData = async (e: { preventDefault: () => void }) =>{
+  
+const collectData = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    try{
-      const response = await fetch('http://localhost:4000/Registrar',{
-        method: 'post',
-        body: JSON.stringify({name, email, password}),
-        headers:{
-          'Content-Type': 'application/json'
+
+    
+    if (!name || !email || !password) {
+      alert("Por favor, complete todos los campos.");
+      return;
+    }
+
+    try {
+      
+      const response = await fetch("http://localhost:4000/Registrar", {
+        method: "POST",
+        body: JSON.stringify({ name, email, password }),
+        headers: {
+          "Content-Type": "application/json",
         },
       });
+
       const result = await response.json();
-     
-    }catch(error){
-      console.log(error);
+
+      if (response.ok) {
+        alert("Usuario registrado con éxito.");
+        console.log("Respuesta del servidor:", result);
+        
+        setName("");
+        setEmail("");
+        setPassword("");
+      } else {
+        console.error("Error al registrar usuario:", result);
+        alert(`Error: ${result.message || "No se pudo registrar el usuario."}`);
+      }
+    } catch (error) {
+      console.error("Error en la solicitud:", error);
+      alert("Hubo un problema al intentar registrar el usuario.");
     }
-  }
+  };
 
   return (
     <>
