@@ -55,3 +55,15 @@ img.baner{
     display: block; /* Asegura que se comporta como un bloque */
     width: 100%; /* Ajusta la imagen al ancho completo */
 }
+
+h2.bienvenida{
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: rgba(169, 169, 169, 0.5);  
+    padding: 60px;
+    max-width: 2000px; 
+    word-wrap: break-word; 
+    letter-spacing: -0.5px; 
+
+}
+
