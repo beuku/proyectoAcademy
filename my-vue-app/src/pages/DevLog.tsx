@@ -1,11 +1,11 @@
 import Footercomponents from "../components/Footercomponents"
-import HeaderComponemts from "../components/HeaderComponemts"
+import Devlogcomponents from "../components/Devlogcomponents"
 
 function DevLog() {
     return (
       <>
-        <HeaderComponemts />
-        <div>PagesInicial</div>
+        
+        <Devlogcomponents />
         <Footercomponents /> 
       </>
     )
