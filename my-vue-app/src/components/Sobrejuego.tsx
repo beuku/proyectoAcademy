@@ -1,7 +1,4 @@
-
-import "../styless/Sobrejeugo.css"
 import { Link } from "react-router-dom";
-
 import "../styless/Sobrejuego.css"
 import ReactPlayer from "react-player";
 
@@ -37,14 +34,6 @@ function Sobrejuego() {
           <Link className="link" to="/AvisoLegal">Aviso legal</Link>
       </li>
       </div>
-
-    <body className="body-sobrejuego">
-      
-    <h1 className="margen1"> ¡Sobre nuestro juego!
-      
-
-     </h1>
-     
      
     
 
