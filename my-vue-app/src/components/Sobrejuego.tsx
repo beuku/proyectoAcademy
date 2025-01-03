@@ -1,8 +1,14 @@
+
 import "../styless/Sobrejeugo.css"
 import { Link } from "react-router-dom";
 
-export default function Sobrejuego() {
+import "../styless/Sobrejuego.css"
+import ReactPlayer from "react-player";
+
+
+function Sobrejuego() {
   return (
+
 
 
     <header>
@@ -42,6 +48,19 @@ export default function Sobrejuego() {
      
     
 
+      <body className="body-sobrejuego">
+
+     <h1 className="margen1"> ¡Sobre nuestro juego!</h1>
+     
+      <div className="url">
+        <ReactPlayer url="https://www.youtube.com/watch?v=-U8Hbs0f0Ek"
+        controls
+        height={600}
+        width={940}    
+        />
+      </div>
+
+
       <h4 > 
 
         
@@ -66,8 +85,9 @@ export default function Sobrejuego() {
         </p>
           
       </h4>
+      
 
-      </body>
+        </body>
 
   </header>
       
@@ -76,3 +96,6 @@ export default function Sobrejuego() {
     
   )
 }
+
+
+export default Sobrejuego;
