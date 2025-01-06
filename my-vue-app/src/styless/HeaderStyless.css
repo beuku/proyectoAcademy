@@ -63,7 +63,9 @@ h2.bienvenida{
     padding: 60px;
     max-width: 2000px; 
     word-wrap: break-word; 
-    letter-spacing: -0.5px; 
-
+    letter-spacing: -0.5px;
+    margin-left: 30px;
+    margin-right: 30px; 
+    width: 100%;
 }
 

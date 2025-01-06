@@ -1,4 +1,3 @@
-
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
 import RegitrarComponents from "./RegitrarComponents";
