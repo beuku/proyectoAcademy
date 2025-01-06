@@ -1,6 +1,6 @@
 
 .header{
-    background-color:   #084e2e;
+    background-color: #1e9181;
     color: rgb(31, 31, 26);
     padding: 10px;
     margin: 0;
@@ -57,12 +57,24 @@ img.baner{
     width: 100%; /* Ajusta la imagen al ancho completo */
 }
 
-h2.bienvenida{
+h2.bienvenido{
     border-radius: 20px;
+
+    margin-top: 25px;
+    background-color: rgba(218, 214, 214, 0.678);  
+
+
     margin-top: 50px;
     margin-bottom: 100px;
     background-color: rgba(169, 169, 169, 0.5); 
+  
     padding: 60px;
+    color: #f8dfde;
+    margin-inline: 30px;
+    border: 5px solid #ccc;  
+
+
+    border-radius: 30px;
     max-width: 2000px; 
     word-wrap: break-word; 
     letter-spacing: -0.5px; 

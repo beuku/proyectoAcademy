@@ -40,8 +40,7 @@ function HeaderComponemts() {
             <img className="baner" src="./src/assets/Cap.png" alt="banner" />
         </header>
         
-        <h2 className="bienvenida">
-            <p className="TEXTO-H">
+        <h2 className="bienvenido">
                 Bienvenido a ShaVeyter, el lugar definitivo para vivir la 
                 aventura de tu vida.
                 Sumergete en un mundo lleno de accion, desafios y emocionantes 
