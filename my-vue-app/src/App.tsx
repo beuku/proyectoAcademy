@@ -9,6 +9,7 @@ import Descarga from './pages/Descarga'
 import Comunidad from './pages/Comunidad'
 import AvisoLegal from './pages/AvisoLegal'
 import Registrar from './pages/Registrar'
+import IniSesion from './pages/IniSesion'
 
 function App() {
   
@@ -23,7 +24,7 @@ function App() {
         <Route path='/Comunidad' element={<Comunidad />} />
         <Route path='/AvisoLegal' element={<AvisoLegal />} />
         <Route path='/Registrar' element={<Registrar />} />
-
+        <Route path='/IniSesion' element={<IniSesion />} />
       </Routes>
     </>
   )

@@ -2,6 +2,8 @@
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
 import RegitrarComponents from "./RegitrarComponents";
+import IniSesion from "../pages/IniSesion";
+import IniSesionComponents from "./IniSesionComponents";
 
 function HeaderComponemts() {
   return (
@@ -33,7 +35,7 @@ function HeaderComponemts() {
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
             </div>
-            <RegitrarComponents />
+            <IniSesionComponents />
         </nav>
         <header className="header">
             <img className="baner" src="./src/assets/Cap.png" alt="banner" />
