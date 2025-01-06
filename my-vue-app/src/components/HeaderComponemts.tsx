@@ -50,7 +50,7 @@ function HeaderComponemts() {
                 de todo el mundo y descubre nuevos niveles de diversion en cada 
                 partida. ¡Tu aventura comienza ahora por ShaqVeyter!
 
-            </p>
+            
                 
                 
     
