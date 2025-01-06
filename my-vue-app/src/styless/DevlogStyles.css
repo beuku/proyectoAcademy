@@ -1,26 +1,69 @@
 body.body-Devlog{
 background-size: cover;
 text-align: center;
+
 }
 
 
 
 h1.desarrolladores-{
     background-color: rgb(30, 99, 76);   
-    padding: 20px;           /* Espacio interno */
-
+    padding: 20px;         
     border-radius: 10px;
 }
 h2.h2-NE{
-    padding: 10px;           /* Espacio interno */
+    border-radius: 15px;
+    padding: 30px;        
     background-color: rgb(44, 44, 44); 
     margin: auto;  
-    margin: 20px;            /* Espacio externo */
+    margin: 30px;          
     display: inline-block; 
+    font-size: 30px;
 
 }
 p.-somos{
-    text-align: center;
+    font-size: 30px;
+    max-width: 1500px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+p.imagen-DEV{
+    
+    width: 500px;       
+    height: 500px;      
+    background-image: url(../assets/);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;   
+}
+
+div.BOX{
+
+    display: inline-block;
+
+
 }
 
 
+div.CAJA{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+
+    
+    
+}
+
+h2.titulo-imagenn{
+
+    margin-top: 10px;
+}
+p.descr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    max-width: 850px;
+}

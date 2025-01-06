@@ -40,7 +40,7 @@ function HeaderComponemts() {
         </header>
         
         <h2 className="bienvenida">
-                
+            <p className="TEXTO-H">
                 Bienvenido a ShaVeyter, el lugar definitivo para vivir la 
                 aventura de tu vida.
                 Sumergete en un mundo lleno de accion, desafios y emocionantes 
@@ -49,6 +49,10 @@ function HeaderComponemts() {
                 y dominar el juego. Unete a la comunidad, compite con jugadores 
                 de todo el mundo y descubre nuevos niveles de diversion en cada 
                 partida. ¡Tu aventura comienza ahora por ShaqVeyter!
+
+            </p>
+                
+                
     
                 </h2>
     </>
