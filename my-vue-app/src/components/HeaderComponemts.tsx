@@ -6,7 +6,6 @@ function HeaderComponemts() {
   return (
     <>
         <nav className="nav">
-        <img src="src/assets/icono10.png" alt="" width="80px"></img>
             <div className="nav">
                 <li className="li">
                     <Link className="link" to="/">Inicio</Link>
@@ -20,6 +19,8 @@ function HeaderComponemts() {
                     <Link className="link" to="/DevLog">DevLog</Link>
                 </li>
 
+        <img src="src/assets/icono10.png" alt="" width="80px"></img>
+
                 <li className="li">
                     <Link className="link" to="/Comunidad">Comunidad</Link>
                 </li>
@@ -31,8 +32,10 @@ function HeaderComponemts() {
                 <li className="li">
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
-            </div>
+                <li className="reg">
             <RegitrarComponents />
+                </li>
+            </div>
         </nav>
         <header className="header">
             <img className="baner" src="./src/assets/Cap.png" alt="banner" />

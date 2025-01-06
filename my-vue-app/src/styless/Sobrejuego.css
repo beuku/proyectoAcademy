@@ -23,13 +23,11 @@ img.icono-j{
 }
 
 div.url{
-
-    margin-top: 50px;
-    margin-left: 490px ;
-    
-    
-
-
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
 }
 
 
