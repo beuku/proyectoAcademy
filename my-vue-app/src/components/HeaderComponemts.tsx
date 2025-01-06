@@ -1,8 +1,7 @@
 
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
-import RegitrarComponents from "./RegitrarComponents";
-import IniSesion from "../pages/IniSesion";
+
 import IniSesionComponents from "./IniSesionComponents";
 
 function HeaderComponemts() {

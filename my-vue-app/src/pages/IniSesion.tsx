@@ -6,7 +6,7 @@ import "../styless/IniSesion.css"
 import "../styless/HeaderStyless.css"
 
 function IniSesion() {
-    const [name, setName] = useState("");
+    
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
   

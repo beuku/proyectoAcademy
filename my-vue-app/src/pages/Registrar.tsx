@@ -1,7 +1,7 @@
 import "../styless/RegistrarStyles.css"
 import "../styless/HeaderStyless.css"
 import { Input } from "@mui/material"
-import RegitrarComponents from "../components/RegitrarComponents"
+
 import { Link } from "react-router-dom"
 import  { useState } from "react";
 import IniSesionComponents from "../components/IniSesionComponents"
