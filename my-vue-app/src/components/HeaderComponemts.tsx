@@ -7,6 +7,7 @@ function HeaderComponemts() {
     <>
         <nav className="nav">
             <div className="nav">
+        <img src="src/assets/icono10.png" alt="" width="80px"></img>
                 <li className="li">
                     <Link className="link" to="/">Inicio</Link>
                 </li>
@@ -19,7 +20,6 @@ function HeaderComponemts() {
                     <Link className="link" to="/DevLog">DevLog</Link>
                 </li>
 
-        <img src="src/assets/icono10.png" alt="" width="80px"></img>
 
                 <li className="li">
                     <Link className="link" to="/Comunidad">Comunidad</Link>
@@ -32,9 +32,9 @@ function HeaderComponemts() {
                 <li className="li">
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
-                <li className="reg">
+                <div className="reg">
             <RegitrarComponents />
-                </li>
+                </div>
             </div>
         </nav>
         <header className="header">

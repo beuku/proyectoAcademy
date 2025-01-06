@@ -6,6 +6,7 @@ function Devlogcomponents() {
 
   <header>    
     <div className="nav">
+      <img src="src/assets/icono10.png" alt="" width="80px"></img>
       <li className="li">
           <Link className="link" to="/">Inicio</Link>
       </li>
@@ -18,7 +19,6 @@ function Devlogcomponents() {
           <Link className="link" to="/DevLog">DevLog</Link>
       </li>
 
-      <img src="src/assets/icono10.png" alt="" width="80px"></img>
       
       <li className="li">
           <Link className="link" to="/Comunidad">Comunidad</Link>
