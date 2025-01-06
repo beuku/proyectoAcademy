@@ -59,9 +59,15 @@ img.baner{
 
 h2.bienvenido{
     border-radius: 20px;
+
     margin-top: 25px;
     background-color: rgba(218, 214, 214, 0.678);  
 
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: rgba(169, 169, 169, 0.5); 
+  
     padding: 60px;
     color: #f8dfde;
     margin-inline: 30px;
@@ -72,6 +78,14 @@ h2.bienvenido{
     max-width: 2000px; 
     word-wrap: break-word; 
     letter-spacing: -0.5px; 
+    border-radius: 8px;  /* Esquinas redondeadas */
 
 }
 
+p.TEXTO-H{
+    background-color: rgba(169, 169, 169, 0.5); 
+    padding: 20px; 
+    border-radius: 8px;    
+
+
+}

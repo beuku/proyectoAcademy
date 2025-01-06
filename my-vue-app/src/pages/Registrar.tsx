@@ -1,9 +1,10 @@
 import "../styless/RegistrarStyles.css"
 import "../styless/HeaderStyless.css"
 import { Input } from "@mui/material"
-import RegitrarComponents from "../components/RegitrarComponents"
+
 import { Link } from "react-router-dom"
 import  { useState } from "react";
+import IniSesionComponents from "../components/IniSesionComponents"
 
 
 
@@ -58,7 +59,7 @@ const collectData = async (e: { preventDefault: () => void }) => {
         <li>
             <Link className="link" to="/">Inicio</Link>
         </li>
-        <RegitrarComponents />
+        <IniSesionComponents />
         <div className="formulario">
             <h4>Datos de usuario</h4>
             <Input type="text" name="name" value={name} id="name" placeholder="Ingrese un nombre" onChange={(e) => setName(e.target.value)} className="input"/>

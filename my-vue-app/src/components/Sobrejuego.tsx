@@ -54,22 +54,27 @@ function Sobrejuego() {
 
         
         <p className="margen2"> <h1 className="titulo-p">se trata tanto tanto</h1>
-          albion online es un mmorpg no lineal en el 
+        <p className="TEXTO">albion online es un mmorpg no lineal en el 
           que escribes tu propia historia sin limitarte a
           seguir un camino prefijado, explora un amplio
           mundo abierto con cinco biomas unicos, todo cuant
           o hagas tendra su repercusíon en el mundo, con su 
           economia orientada al jugador de albion los jugadores
 
+
+        </p>
+   
         </p>
 
         <p className="margen2"> <h1 className="titulo-p">sobre tanto tanto</h1>
-          albion online es un mmorpg no lineal en el 
+        <p className="TEXTO">albion online es un mmorpg no lineal en el 
           que escribes tu propia historia sin limitarte a
           seguir un camino prefijado, explora un amplio
           mundo abierto con cinco biomas unicos, todo cuant
-          o hagas tendra su repercusíon en el mundo, con su
+          o hagas tendra su repercusíon en el mundo, con su 
           economia orientada al jugador de albion los jugadores 
+
+          </p>
 
         </p>
           
