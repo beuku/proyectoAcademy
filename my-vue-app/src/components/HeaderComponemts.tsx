@@ -1,14 +1,15 @@
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
+import RegitrarComponents from './RegitrarComponents';
 
 import IniSesionComponents from "./IniSesionComponents";
 
 function HeaderComponemts() {
   return (
     <>
-        <nav className="nav">
+        <div className="nav">
             <div className="nav">
-        <img src="src/assets/icono10.png" alt="" width="80px"></img>
+            <img src="src/assets/icono10.png" alt="" width="80px"></img>
                 <li className="li">
                     <Link className="link" to="/">Inicio</Link>
                 </li>
@@ -34,12 +35,11 @@ function HeaderComponemts() {
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
                 <div className="reg">
-            <RegitrarComponents />
+                <RegitrarComponents />
                 </div>
             </div>
             </div>
             <IniSesionComponents />
-        </nav>
         <header className="header">
             <img className="baner" src="./src/assets/Cap.png" alt="banner" />
         </header>
@@ -53,11 +53,6 @@ function HeaderComponemts() {
                 y dominar el juego. Unete a la comunidad, compite con jugadores 
                 de todo el mundo y descubre nuevos niveles de diversion en cada 
                 partida. ¡Tu aventura comienza ahora por ShaqVeyter!
-
-            
-                
-                
-    
                 </h2>
     </>
   )
