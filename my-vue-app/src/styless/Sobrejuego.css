@@ -20,21 +20,15 @@ h1.margen1{
 
 }
 img.icono-j{
-    margin-top: 0px ;
-    
-
-
     margin-top: 10px;
 }
 
 div.url{
-
-    margin-top: 50px;
-    margin-left: 490px ;
-    
-    
-
-
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
 }
 
 
