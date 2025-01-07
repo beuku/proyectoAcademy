@@ -1,7 +1,5 @@
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
-import RegitrarComponents from './RegitrarComponents';
-
 import IniSesionComponents from "./IniSesionComponents";
 
 function HeaderComponemts() {
@@ -22,7 +20,6 @@ function HeaderComponemts() {
                     <Link className="link" to="/DevLog">DevLog</Link>
                 </li>
 
-
                 <li className="li">
                     <Link className="link" to="/Comunidad">Comunidad</Link>
                 </li>
@@ -34,18 +31,14 @@ function HeaderComponemts() {
                 <li className="li">
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
-                <div className="reg">
-                <RegitrarComponents />
-           
-                </div>
-            
-            </div>
             <IniSesionComponents />
-        <header className="header">
-            <img className="baner" src="./src/assets/Cap.png" alt="banner" />
-        </header>
+            </div>
+            </div>
+            <header className="header">
+                <img className="baner" src="./src/assets/Cap.png" alt="banner" />
+            </header>
         
-        <h2 className="bienvenido">
+            <h2 className="bienvenido">
                 Bienvenido a ShaVeyter, el lugar definitivo para vivir la 
                 aventura de tu vida.
                 Sumergete en un mundo lleno de accion, desafios y emocionantes 
