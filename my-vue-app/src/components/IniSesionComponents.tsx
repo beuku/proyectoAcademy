@@ -5,7 +5,7 @@ import "../styless/IniSesion.css"
 function IniSesionComponents() {
   return (
     <div>
-        <Link to="/IniSesion" className="buttonRegistrar"><Button variant="contained" className="stylboton">Iniciar Sesion</Button></Link>
+        <Link to="/IniSesion" className="buttonRegistrar"><Button className="stylboton">Iniciar Sesion</Button></Link>
     </div>
   )
 }
