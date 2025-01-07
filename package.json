@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-player": "^2.16.0"
+  },
+  "devDependencies": {
+    "@types/history": "^4.7.11"
   }
 }

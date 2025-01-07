@@ -56,7 +56,7 @@
     text-decoration: none;
     display: flex;
     justify-content: flex-end; 
-    align-items: center; /* Centra el botón verticalmente */
+    align-items: center;
 }
 .input{
    background-color: aliceblue; 
