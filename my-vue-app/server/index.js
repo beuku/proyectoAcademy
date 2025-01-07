@@ -26,6 +26,27 @@ app.post("/Registrar", async(req,res)=>{
   res.send(result);
 })
 
+app.post("/IniciarSesion", async (req, res) => {
+  const { email, password } = req.body;
+  
+  if (!email || !password) {
+    return res.status(400).send({ message: "Email y contraseña son obligatorios." });
+  }
+
+  try {
+    const cliente = await Cliente.findOne({ email, password });
+    
+    if (cliente) {
+      res.send({ message: "Inicio de sesión exitoso", cliente });
+    } else {
+      res.status(401).send({ message: "Credenciales incorrectas." });
+    }
+  } catch (error) {
+    console.error("Error al buscar cliente:", error);
+    res.status(500).send({ message: "Error del servidor." });
+  }
+});
+
 app.get('/formularios', async (req, res) => {
   try {
     const formularios = await Cliente.find({});

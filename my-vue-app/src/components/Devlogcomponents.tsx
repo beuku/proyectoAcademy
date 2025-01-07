@@ -1,5 +1,7 @@
 import "../styless/DevlogStyles.css"
 import { Link } from "react-router-dom";
+import AspectRatio from '@mui/joy/AspectRatio';
+
 
 function Devlogcomponents() {
   return (
@@ -46,13 +48,102 @@ function Devlogcomponents() {
       </h1>
         
         
-      <h2 className="h2-NE">Nuestro equipo</h2> 
-      <p className="-somos">
-        Somos un equipo de profesionales con amplia experiencia 
-        en el sector del desarrollo de software. Estamos comprometidos a brindar 
-        el mejor servicio a nuestros clientes y garantizar su satisfacción.
-      </p>
+      <h2 className="h2-NE">Notas de la version!</h2> 
+        <p className="-somos">
+        En este espacio se irán cargando todas las versiones del juego,
+        con actualizaciones periódicas que permitirán a
+        los usuarios acceder a las últimas mejoras y correcciones implementadas.
+        </p>
 
+      <div className="BOX"> 
+
+      <AspectRatio className="CAJA" sx={{ width: 550 }}>
+        <p className="imagen-DEV"></p>
+      </AspectRatio> 
+      <h2 className="titulo-imagenn">update</h2>
+        <p className="descr">
+        TANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTAN
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO</p>
+
+        </div>
+
+          <div className="BOX"> 
+
+      <AspectRatio className="CAJA" sx={{ width: 550 }}>
+        <p className="imagen-DEV"></p>
+      </AspectRatio> 
+      <h2 className="titulo-imagenn">update</h2>
+        <p className="descr">
+        TANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTAN
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        </p>
+        </div>
+          <div className="BOX"> 
+
+
+
+
+      <AspectRatio className="CAJA" sx={{ width: 550 }}>
+        <p className="imagen-DEV"></p>
+      </AspectRatio> 
+      <h2 className="titulo-imagenn">update</h2>
+        <p className="descr">
+        TANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTAN
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO</p>
+
+        </div>
+         <div className="BOX"> 
+
+      <AspectRatio className="CAJA" sx={{ width: 550 }}>
+        <p className="imagen-DEV"></p>
+      </AspectRatio> 
+      <h2 className="titulo-imagenn">update</h2>
+      <p className="descr">
+        TANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTAN
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO
+        TOTANTOTANTOTANTOTANTOTANTOTANTOTANT
+        OTANTOTANTOTANTOTANTOTANTOTANTOTANTO</p>
+
+        </div>
+ 
     </body>
   </header>
 

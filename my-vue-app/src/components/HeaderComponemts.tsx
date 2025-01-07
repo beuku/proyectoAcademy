@@ -1,6 +1,7 @@
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
-import RegitrarComponents from "./RegitrarComponents";
+
+import IniSesionComponents from "./IniSesionComponents";
 
 function HeaderComponemts() {
   return (
@@ -36,13 +37,14 @@ function HeaderComponemts() {
             <RegitrarComponents />
                 </div>
             </div>
+            </div>
+            <IniSesionComponents />
         </nav>
         <header className="header">
             <img className="baner" src="./src/assets/Cap.png" alt="banner" />
         </header>
         
-        <h2 className="bienvenida">
-                
+        <h2 className="bienvenido">
                 Bienvenido a ShaVeyter, el lugar definitivo para vivir la 
                 aventura de tu vida.
                 Sumergete en un mundo lleno de accion, desafios y emocionantes 
@@ -51,6 +53,10 @@ function HeaderComponemts() {
                 y dominar el juego. Unete a la comunidad, compite con jugadores 
                 de todo el mundo y descubre nuevos niveles de diversion en cada 
                 partida. ¡Tu aventura comienza ahora por ShaqVeyter!
+
+            
+                
+                
     
                 </h2>
     </>
