@@ -1,0 +1,29 @@
+
+h1.titulo-D{
+
+    background-color:rgb(100, 98, 96);
+    block-size: 80px;
+    border-radius: 15px;
+    display:inline-flex;
+    margin-top: 100px;
+    padding: 10px;
+  
+}
+body.body-descarga{
+    text-align: center;
+
+    background-image: url(../assets/imagenfondoimagen.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0; 
+}
+
+
+h2.Descarga{
+
+
+    margin-top: 100px;
+
+
+}
