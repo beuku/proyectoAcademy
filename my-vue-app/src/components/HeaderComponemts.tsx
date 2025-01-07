@@ -36,8 +36,9 @@ function HeaderComponemts() {
                 </li>
                 <div className="reg">
                 <RegitrarComponents />
+           
                 </div>
-            </div>
+            
             </div>
             <IniSesionComponents />
         <header className="header">
