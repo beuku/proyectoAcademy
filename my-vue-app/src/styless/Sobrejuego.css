@@ -16,6 +16,7 @@ h1.margen1{
 
     background-color:#1e9181;
     padding: 20px;
+    color: #e2dcdc;
 
 }
 img.icono-j{
@@ -59,7 +60,7 @@ p.margen2{
     letter-spacing: -0.5px; 
     margin: 0 auto;                   
     width:40%;                     
-    border: 1px solid #ccc;  
+    border: 5px solid #ccc;  
     border-radius: 5px;   
     margin-bottom: 100px;
     
@@ -67,15 +68,17 @@ p.margen2{
  p.TEXTO{
     font-size: 25px;
     margin-top: 35px;
+    color: #f8dfde;
 }
+
 
 h1.titulo-p {
     margin-bottom: 20px;
 
     background-color: rgba(169, 169, 169, 0.5);  /* Gris semitransparente */
     padding: 20px;  /* Espacio dentro de la caja */
-    border-radius: 8px;  /* Esquinas redondeadas */
-    
+    border-radius: 10px;  /* Esquinas redondeadas */
+    color: #e2dcdc;
     padding: 10px;
     max-width: 1200px; 
     word-wrap: break-word; 

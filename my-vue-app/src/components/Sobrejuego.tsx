@@ -53,26 +53,23 @@ function Sobrejuego() {
       <h4 > 
 
         
-        <p className="margen2"> <h1 className="titulo-p">se trata tanto tanto</h1>
-        <p className="TEXTO">albion online es un mmorpg no lineal en el 
-          que escribes tu propia historia sin limitarte a
-          seguir un camino prefijado, explora un amplio
-          mundo abierto con cinco biomas unicos, todo cuant
-          o hagas tendra su repercusíon en el mundo, con su 
-          economia orientada al jugador de albion los jugadores
+        <p className="margen2"> <h1 className="titulo-p">Modo de juego</h1>
+        <p className="TEXTO">Albion Online es un juego de fantasía MMORPG 
+          sandbox que tiene una economía manejada por los jugadores, un 
+          sistema de combate sin clases, e intensas batallas de PvP. Explora 
+          el vasto mundo lleno de peligros y oportunidades.
 
 
         </p>
    
         </p>
 
-        <p className="margen2"> <h1 className="titulo-p">sobre tanto tanto</h1>
-        <p className="TEXTO">albion online es un mmorpg no lineal en el 
-          que escribes tu propia historia sin limitarte a
-          seguir un camino prefijado, explora un amplio
-          mundo abierto con cinco biomas unicos, todo cuant
-          o hagas tendra su repercusíon en el mundo, con su 
-          economia orientada al jugador de albion los jugadores 
+        <p className="margen2"> <h1 className="titulo-p">Reglas de juego</h1>
+        <p className="TEXTO">Albion Online está diseñado para jugadores de 18 
+          años o más. La expectativa es que el juego y el chat no serán un 
+          entorno limpio desde el punto de vista clínico, ya que se trata de un 
+          juego competitivo, a pesar de todo, sin embargo, no se tolerará la 
+          toxicidad extrema. 
 
           </p>
 

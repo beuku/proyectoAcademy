@@ -4,7 +4,8 @@ export default function Bodycomponents() {
 
 
    <body>
-        <h1> ¡Nuestros enlaces de descarga! </h1>
+        
+        <h1 className="N"> ¡Nuestros enlaces de descarga! </h1>
 
     <h2>
         <a href="https://store.steampowered.com/?l=spanish"target="_blank">
