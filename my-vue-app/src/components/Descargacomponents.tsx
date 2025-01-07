@@ -71,5 +71,17 @@ function Descargacomponents() {
 
   )
 }
+        </a>
+
+        
+    </h2>
+
+  
+      </body>
+
+    </header>
+  
+    )
+  }
   
   export default Descargacomponents;

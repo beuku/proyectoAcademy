@@ -1,10 +1,12 @@
 import Footercomponents from "../components/Footercomponents"
 import Descargacomponents from "../components/Descargacomponents"
 
+
 function Descarga() {
     return (
       <>
-        <Descargacomponents/>
+
+        <Descargacomponents />
         <Footercomponents /> 
       </>
     )

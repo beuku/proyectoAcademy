@@ -2,6 +2,7 @@ import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
 import IniSesionComponents from "./IniSesionComponents";
 
+
 function HeaderComponemts() {
   return (
     <>
@@ -48,6 +49,8 @@ function HeaderComponemts() {
                 de todo el mundo y descubre nuevos niveles de diversion en cada 
                 partida. ¡Tu aventura comienza ahora por ShaqVeyter!
                 </h2>
+        
+       
     </>
   )
 }

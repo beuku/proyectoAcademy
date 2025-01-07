@@ -66,6 +66,7 @@ img.baner{
     width: 98.7%; 
 }
 
+
 h2.bienvenido{
     border-radius: 20px;
     margin-top: 50px;
@@ -79,6 +80,7 @@ h2.bienvenido{
     width: 98%;
     margin: 50px auto; /* Centra horizontalmente */
 }
+ 
 
 p.TEXTO-H{
     background-color: rgba(169, 169, 169, 0.5); 
