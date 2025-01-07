@@ -1,11 +1,10 @@
 import Footercomponents from "../components/Footercomponents"
-import HeaderComponemts from "../components/HeaderComponemts"
+import Descargacomponents from "../components/Descargacomponents"
 
 function Descarga() {
     return (
       <>
-        <HeaderComponemts />
-        <div>PagesInicial</div>
+        <Descargacomponents/>
         <Footercomponents /> 
       </>
     )
