@@ -1,3 +1,4 @@
+
 import Footercomponents from "../components/Footercomponents"
 import Sobrejuego from "../components/Sobrejuego"
 
@@ -6,6 +7,7 @@ function SobreEljuego() {
       <>
 
         <Sobrejuego />
+        
         <Footercomponents /> 
       </>
     )
