@@ -34,9 +34,9 @@ function HeaderComponemts() {
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
                 <div className="reg">
-            <RegitrarComponents />
+           
                 </div>
-            </div>
+            
             </div>
             <IniSesionComponents />
         </nav>
