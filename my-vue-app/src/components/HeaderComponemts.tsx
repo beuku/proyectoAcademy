@@ -6,9 +6,9 @@ import IniSesionComponents from "./IniSesionComponents";
 function HeaderComponemts() {
   return (
     <>
-        <nav className="nav">
+        <div className="nav">
             <div className="nav">
-        <img src="src/assets/icono10.png" alt="" width="80px"></img>
+            <img src="src/assets/icono10.png" alt="" width="80px"></img>
                 <li className="li">
                     <Link className="link" to="/">Inicio</Link>
                 </li>
@@ -21,7 +21,6 @@ function HeaderComponemts() {
                     <Link className="link" to="/DevLog">DevLog</Link>
                 </li>
 
-
                 <li className="li">
                     <Link className="link" to="/Comunidad">Comunidad</Link>
                 </li>
@@ -33,17 +32,23 @@ function HeaderComponemts() {
                 <li className="li">
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
-                <div className="reg">
-           
-                </div>
-            
-            </div>
             <IniSesionComponents />
-        </nav>
-        <header className="header">
-            <img className="baner" src="./src/assets/Cap.png" alt="banner" />
-        </header>
+            </div>
+            </div>
+            <header className="header">
+                <img className="baner" src="./src/assets/Cap.png" alt="banner" />
+            </header>
         
+            <h2 className="bienvenido">
+                Bienvenido a ShaVeyter, el lugar definitivo para vivir la 
+                aventura de tu vida.
+                Sumergete en un mundo lleno de accion, desafios y emocionantes 
+                sorpresas. Ya seas un principiante o un experto, aqui 
+                encontraras todo lo que necesitas para mejorar tu experiencia 
+                y dominar el juego. Unete a la comunidad, compite con jugadores 
+                de todo el mundo y descubre nuevos niveles de diversion en cada 
+                partida. ¡Tu aventura comienza ahora por ShaqVeyter!
+                </h2>
         
        
     </>
