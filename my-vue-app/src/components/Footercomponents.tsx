@@ -27,7 +27,6 @@ function Footercomponents() {
             <a href=""className="menu-icon"> <XIcon /> </a>
           </li>
 
-
         </ul>
           <p className="text"> @ShaqVeyter | Todos los derechos reservados </p>
      </footer>

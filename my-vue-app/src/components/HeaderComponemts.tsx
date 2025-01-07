@@ -1,4 +1,3 @@
-
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
 
@@ -8,8 +7,8 @@ function HeaderComponemts() {
   return (
     <>
         <nav className="nav">
-        <img src="src/assets/icono10.png" alt="" width="80px"></img>
             <div className="nav">
+        <img src="src/assets/icono10.png" alt="" width="80px"></img>
                 <li className="li">
                     <Link className="link" to="/">Inicio</Link>
                 </li>
@@ -22,6 +21,7 @@ function HeaderComponemts() {
                     <Link className="link" to="/DevLog">DevLog</Link>
                 </li>
 
+
                 <li className="li">
                     <Link className="link" to="/Comunidad">Comunidad</Link>
                 </li>
@@ -33,6 +33,10 @@ function HeaderComponemts() {
                 <li className="li">
                     <Link className="link" to="/AvisoLegal">Aviso legal</Link>
                 </li>
+                <div className="reg">
+            <RegitrarComponents />
+                </div>
+            </div>
             </div>
             <IniSesionComponents />
         </nav>
