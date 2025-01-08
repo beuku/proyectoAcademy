@@ -33,7 +33,7 @@ function Comunidadcomponents() {
           </li>
           
       </div>
-        <body>   
+        <body className="body-Comunidad">   
   <h1 className="Comunidad"> ¡Comunidad!</h1>
 
 <div className="cajas"> 
