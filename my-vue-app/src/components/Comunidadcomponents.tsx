@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "../styless/Comunidad.css"
 import AspectRatio from '@mui/joy/AspectRatio';
 
-
 function Comunidadcomponents() {
     return (
         <header>    
@@ -52,7 +51,7 @@ function Comunidadcomponents() {
   texto texto texto texto texto texto texto texto
   texto texto texto texto
   </p>
-
+  <input type="text" className="comentario"/>
   </div>
   <div className="cajas"> 
 
@@ -68,7 +67,7 @@ function Comunidadcomponents() {
   texto texto texto texto texto texto texto texto
   texto texto texto texto texto texto texto texto
   texto texto texto texto</p>
-      <input type="text" label="Comenta we" className="comentario"/>
+      <input type="text" className="comentario"/>
   </div>
 
 </body>

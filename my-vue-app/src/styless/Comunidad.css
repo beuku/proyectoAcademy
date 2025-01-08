@@ -55,7 +55,8 @@ p.somos{
     
 }
 .comentario{
-    background-color: white;
+    background-color: rgb(128, 255, 124);
+    margin-bottom: 20px;
     color: #000000;
     width: 600px;
     font-size: 20px;  
