@@ -2,7 +2,7 @@
     background-color: #1e9181;
     color: rgb(31, 31, 26);
     padding: 10px;
-    margin: 0;
+    margin-top: 100px;
     position: relative;
     padding-bottom: 2em; 
 }
@@ -34,10 +34,16 @@ p h4{
     
 }
 div.nav{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Asegura que cubra todo el ancho */
     display: flex; 
     flex-wrap: wrap; 
     gap: 15px; 
-    background-color:#000000;
+    background-color: #000000; /* Color de fondo o reemplazar con imagen */
+    z-index: 10; /* Para asegurarte de que esté por encima de otros elementos */
 }
 .li{
     align-items: center;
