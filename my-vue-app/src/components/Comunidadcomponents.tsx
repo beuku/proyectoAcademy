@@ -40,15 +40,11 @@ function Comunidadcomponents() {
 <AspectRatio className="CAJA" sx={{ width: 1000 }}>
   <p className="imagenes"></p>
 </AspectRatio> 
-<h2 className="titulo-imagenn">update</h2>
-  <p className="descripcion"> texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto
+<h2 className="titulo-imagenn">Titulo</h2>
+  <p className="descripcion"> Impresionante captura de un 
+    dinosaurio en su hábitat natural. Su presencia majestuosa 
+    y poderosa resalta mientras se enfrenta al vasto entorno 
+    de ARK
   </p>
   <input type="text" className="comentario"/>
   </div>
@@ -57,15 +53,12 @@ function Comunidadcomponents() {
 <AspectRatio className="CAJA" sx={{ width: 1000 }}>
   <p className="imagenes"></p>
 </AspectRatio> 
-<h2 className="titulo-imagenn">update</h2>
-  <p className="descripcion"> texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto</p>
+<h2 className="titulo-imagenn">Titulo</h2>
+    <p className="descripcion"> Impresionante captura de un 
+    dinosaurio en su hábitat natural. Su presencia majestuosa 
+    y poderosa resalta mientras se enfrenta al vasto entorno 
+    de ARK
+    </p>
       <input type="text" className="comentario"/>
   </div>
 
