@@ -31,13 +31,12 @@ function Comunidadcomponents() {
           <li className="li">
               <Link className="link" to="/AvisoLegal">Aviso legal</Link>
           </li>
-      </div><body className='body-Devlog'>   
-  <p className="somos">
-  En este espacio se irán cargando todas las cosas del juego areh.
-  </p>
+          
+      </div>
+        <body>   
+  <h1 className="Comunidad"> ¡Comunidad!</h1>
 
 <div className="cajas"> 
-
 <AspectRatio className="CAJA" sx={{ width: 1000 }}>
   <p className="imagenes"></p>
 </AspectRatio> 
