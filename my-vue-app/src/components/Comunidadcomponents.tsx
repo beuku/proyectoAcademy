@@ -67,8 +67,21 @@ function Comunidadcomponents() {
   texto texto texto texto texto texto texto texto
   texto texto texto texto</p>
       <input type="text" className="comentario"/>
+      <div className="prueba">holaaaaa texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto textotexto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto </div>
   </div>
-
 </body>
         </header>
   )

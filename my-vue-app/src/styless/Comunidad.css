@@ -82,3 +82,9 @@ h1.Comunidad{
     min-height: 100vh;
     margin: 0;
 }
+div.prueba{
+    width: 1400px;
+    height: 200px;
+    overflow-y: scroll;
+    border: 5px solid #3ba840;
+}
