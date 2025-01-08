@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import "../styless/Comunidad.css"
+import AspectRatio from '@mui/joy/AspectRatio';
 
 function Comunidadcomponents() {
     return (
         <header>    
-        <div className="nav">
+        <div className="com">
           <img src="src/assets/icono10.png" alt="" width="80px"></img>
           <li className="li">
               <Link className="link" to="/">Inicio</Link>
@@ -30,15 +31,45 @@ function Comunidadcomponents() {
           <li className="li">
               <Link className="link" to="/AvisoLegal">Aviso legal</Link>
           </li>
+          
       </div>
-    
-            <body className='body-Comunidad'>
-             
+        <body>   
+  <h1 className="Comunidad"> ¡Comunidad!</h1>
 
-                <h1 className="Comunidad"> ¡Comunidad!</h1>
+<div className="cajas"> 
+<AspectRatio className="CAJA" sx={{ width: 1000 }}>
+  <p className="imagenes"></p>
+</AspectRatio> 
+<h2 className="titulo-imagenn">update</h2>
+  <p className="descripcion"> texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto
+  </p>
+  <input type="text" className="comentario"/>
+  </div>
+  <div className="cajas"> 
 
+<AspectRatio className="CAJA" sx={{ width: 1000 }}>
+  <p className="imagenes"></p>
+</AspectRatio> 
+<h2 className="titulo-imagenn">update</h2>
+  <p className="descripcion"> texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto texto texto texto texto
+  texto texto texto texto</p>
+      <input type="text" className="comentario"/>
+  </div>
 
-            </body>
+</body>
         </header>
   )
 }
