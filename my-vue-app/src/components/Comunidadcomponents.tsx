@@ -32,8 +32,12 @@ function Comunidadcomponents() {
           </li>
       </div>
     
-            <body>
-                <h1>wa</h1>
+            <body className='body-Comunidad'>
+             
+
+                <h1 className="Comunidad"> ¡Comunidad!</h1>
+
+
             </body>
         </header>
   )
