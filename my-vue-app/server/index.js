@@ -18,9 +18,15 @@ app.use(cors());
 
 require('./db/connnetion')
 const Cliente = require('./Models/Cliente');
-const { readBuilderProgram } = require('typescript');
+const Formulario = require('./Models/Formulario');
 
 app.post("/Registrar", async(req,res)=>{
+  let cliente = new Cliente(req.body);
+  let result = await cliente.save();
+  res.send(result);
+})
+
+app.post("/Registra", async(req,res)=>{
   let cliente = new Cliente(req.body);
   let result = await cliente.save();
   res.send(result);
