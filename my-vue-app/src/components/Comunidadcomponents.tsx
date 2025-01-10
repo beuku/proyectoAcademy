@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import "../styless/Comunidad.css"
 import AspectRatio from '@mui/joy/AspectRatio';
+
+import FormularioComponents from "./FormularioComponents";
 import { useState } from 'react';
 import { filtrarComentario } from './Moderacion';
+
 
 function Comunidadcomponents() {
   const [comentario, setComentario] = useState("");
@@ -34,6 +37,8 @@ function Comunidadcomponents() {
           <li className="li">
               <Link className="link" to="/Descarga">Descarga</Link>
           </li>
+
+          <FormularioComponents />
         <li className="li">
             <Link className="link" to="/AvisoLegal">Aviso legal</Link>
         </li>
