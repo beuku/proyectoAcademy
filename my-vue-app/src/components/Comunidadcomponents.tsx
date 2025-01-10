@@ -59,21 +59,24 @@ function Comunidadcomponents() {
     y poderosa resalta mientras se enfrenta al vasto entorno 
     de ARK
     </p>
-      <input type="text" className="comentario"/>
+              
+    <input type="text" className="comentario"/>
       <div className="prueba">holaaaaa texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto textotexto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto texto
-  texto texto texto texto texto texto texto </div>
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto textotexto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto texto
+    texto texto texto texto texto texto texto 
+  </div>
+
   </div>
 </body>
         </header>
