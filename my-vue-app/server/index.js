@@ -50,13 +50,16 @@ app.post("/IniciarSesion", async (req, res) => {
   }
 });
 
-app.get('/formularios', async (req, res) => {
+app.get('/Comunidad', async (req, res) => {
   try {
-    const formularios = await Cliente.find({});
-    console.log(formularios)
+    
+    const formularios = await Formulario.find({});
+    
+    
     res.status(200).json(formularios);
   } catch (error) {
-    res.status(500).json({ error: 'Internal Server Error' });
+    console.error("Error al obtener los formularios:", error);
+    res.status(500).json({ message: "Error interno del servidor." });
   }
 });
 
