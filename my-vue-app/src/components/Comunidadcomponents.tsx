@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styless/Comunidad.css"
 import AspectRatio from '@mui/joy/AspectRatio';
+import FormularioComponents from "./FormularioComponents";
 
 function Comunidadcomponents() {
     return (
@@ -31,7 +32,7 @@ function Comunidadcomponents() {
           <li className="li">
               <Link className="link" to="/AvisoLegal">Aviso legal</Link>
           </li>
-          
+          <FormularioComponents />
       </div>
         <body className="body-Comunidad">   
   <h1 className="Comunidad"> ¡Comunidad!</h1>

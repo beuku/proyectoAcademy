@@ -48,11 +48,11 @@ function Formulario() {
   return (
     <>
       <li>
-        <Link className="link" to="/">Inicio</Link>
+        <Link className="link" to="/Comunidad">Comunidad</Link>
       </li>
 
       <div className="formulario">
-        <h4>Cuenta Shaq Veyter</h4>
+        <h4></h4>
         <input
           type="text"
           name="name"
