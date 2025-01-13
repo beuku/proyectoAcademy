@@ -41,6 +41,10 @@ function Devlogcomponents() {
 
 
       <body className='body-Devlog'>   
+ 
+
+
+  
 
 
       <h1 className="desarrolladores-">
@@ -119,6 +123,12 @@ function Devlogcomponents() {
         </div>
  
     </body>
+      <footer className="patas-dev">
+
+
+
+      </footer>
+
   </header>
 
 

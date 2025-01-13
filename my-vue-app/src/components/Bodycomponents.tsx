@@ -11,19 +11,19 @@ export default function Bodycomponents() {
 
     <h2>
         <a href="https://store.steampowered.com/?l=spanish"target="_blank">
-        <img src="src/assets/steam.jpg"  width="250"></img>
+        <img src="src/assets/steam.jpg"  width="100"></img>
         </a>
 
 
 
 
         <a href="https://store.epicgames.com/es-ES/"target="_blank">
-        <img src="src/assets/epic.jpg" width="250"></img>
+        <img src="src/assets/epic.jpg" width="100"></img>
         </a>
 
 
         <a href="https://www.nintendo.com/es-cl/store/games/"target="_blank">
-            <img  src="src/assets/nintendo.jpg" width="250"></img>
+            <img  src="src/assets/nintendo.jpg" width="100"></img>
         </a>
 
     </h2>
