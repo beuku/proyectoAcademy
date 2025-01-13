@@ -51,9 +51,8 @@ function AvisoLegalComponents() {
    <h2 className="h2">6. Exención de responsabilidades</h2>
    <div className="div2">
         Superadmin no garantiza la inexistencia de errores en el acceso o en el contenido del sitio Web o del Blog, ni que estos se encuentren actualizados, aunque Superadmin realizará los mayores esfuerzos para evitarlos, corregirlos o para mantener actualizada su información.
-        <div>
-            Sueradmin no se hace responsable por los daños que se puedan causar en los equipos o sistemas de los usuarios por posibles virus informáticos que se hubieran podido contraer por la navegación del usuario en el sitio Web.
-        </div>
+        Sueradmin no se hace responsable por los daños que se puedan causar en los equipos o sistemas de los usuarios por posibles virus informáticos que se hubieran podido contraer por la navegación del usuario en el sitio Web.
+        
    </div>
    </>
   )

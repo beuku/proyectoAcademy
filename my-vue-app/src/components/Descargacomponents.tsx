@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../styless/DescargaStyles.css"
+import ReviewSection from "../components/ReviewSectionComponents";
 
 function Descargacomponents() {
     return (
@@ -33,7 +34,7 @@ function Descargacomponents() {
     </div>
     <body className='body-descarga'>
 
-        <h1 className="titulo-D"> ¿Como descargar? </h1>
+        <h1 className="titulo-D"> ¿Como Descargar? </h1>
           <div>
             <h2 className="opciones">Seleccione una de las opciones de descarga a continuacion</h2>
           </div>
@@ -66,6 +67,12 @@ function Descargacomponents() {
             <h2>En Nintendo: busque el juego de su gusto y precionelo, ya dentro del juego seleccionado,
               precione descarga directa, coloque la contraseña de su cuenta y sigua las indicaciones</h2>
               </div>
+
+              <div className="review-section">
+          <h2 className="h2R">Reviews de Descargas</h2>
+          <ReviewSection />
+        </div>
+
     </body>
   </header>
 

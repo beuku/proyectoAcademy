@@ -41,6 +41,10 @@ function Devlogcomponents() {
 
 
       <body className='body-Devlog'>   
+ 
+
+
+  
 
 
       <h1 className="desarrolladores-">
@@ -48,7 +52,7 @@ function Devlogcomponents() {
       </h1>
         
         
-      <h2 className="h2-NE">Notas de la version!</h2> 
+      
         <h3 className="-somos">
         Apartado de versiones del juego, Donde los usuarios 
         podran visualizar y acceder a las últimas correcciones 
@@ -119,6 +123,12 @@ function Devlogcomponents() {
         </div>
  
     </body>
+      <footer className="patas-dev">
+
+
+
+      </footer>
+
   </header>
 
 
