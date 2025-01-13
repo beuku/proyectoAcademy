@@ -1,10 +1,8 @@
 h1.titulo-D{
-    background-color:rgb(100, 98, 96);
-    block-size: 80px;
-    border-radius: 15px;
-    display:inline-flex;
-    margin-top: 200px;
-    padding: 10px;
+    margin-top: 100px;
+    background-color:#1e9181;
+    padding: 20px;
+    color: #ffffff;
     
 }
 body.body-descarga{
@@ -20,6 +18,7 @@ div.indicar{
     border: solid rgba(68, 236, 222, 0.26);
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 20px;
 }
 h2.Descarga{
     margin-top: 60px;
