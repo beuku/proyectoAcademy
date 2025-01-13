@@ -1,9 +1,11 @@
 .review-section {
-    padding: 20px;
-    margin-right: 200px;
-    
-    
-  }
+  display: flex;
+  flex-direction: column; /* Alinear elementos verticalmente */
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  min-height: 100vh; /* Altura completa de la ventana */
+  padding: 20px;
+}
 
   .h2R{
 
@@ -77,6 +79,9 @@
     margin: 5px 0;
   }
   
+  li{
+    display: block;
+  }
  
   
 

@@ -62,11 +62,11 @@ interface Review {
           <li key={review.id}>
             <p>
             <strong>{review.name || "Anónimo"}:</strong> 
-                <span className="rating-stars">
+              </p>  
+            <span className="rating-stars">
                     {"★".repeat(review.rating)}{" "}
                     {"☆".repeat(5 - review.rating)}
                 </span>
-            </p>
             <p>{review.comment}</p>
           </li>
     ))}
