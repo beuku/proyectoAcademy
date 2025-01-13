@@ -50,18 +50,6 @@ app.post("/IniciarSesion", async (req, res) => {
   }
 });
 
-app.get('/Comunidad', async (req, res) => {
-  try {
-    
-    const formularios = await Formulario.find({});
-    
-    
-    res.status(200).json(formularios);
-  } catch (error) {
-    console.error("Error al obtener los formularios:", error);
-    res.status(500).json({ message: "Error interno del servidor." });
-  }
-});
 
   
 app.delete('/formularios/:id',  async (req, res) => {
@@ -123,6 +111,16 @@ app.post("/Formulario", upload.single("image"), async (req, res) => {
     });
   } catch (error) {
     console.error("Error al guardar el formulario:", error);
+    res.status(500).json({ message: "Error interno del servidor." });
+  }
+});
+
+app.get("/Comunidad", async (req, res) => {
+  try {
+    const formularios = await Formulario.find(); // Obtén todos los documentos de la colección
+    res.status(200).json(formularios);
+  } catch (error) {
+    console.error("Error al obtener los formularios:", error);
     res.status(500).json({ message: "Error interno del servidor." });
   }
 });

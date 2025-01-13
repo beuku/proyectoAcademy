@@ -1,12 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styless/IniSesion.css";
 import "../styless/HeaderStyless.css";
 
+
+
 function Formulario() {
   const [name, setName] = useState("");
   const [comentario, setComentario] = useState("");
-  const [image, setImage] = useState<File | null>(null); // Cambiar a null para manejar el archivo
+  const [image, setImage] = useState<File | null>(null); 
+
+
+ 
+
+
 
   const verifyData = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
@@ -88,7 +95,7 @@ function Formulario() {
           required
         />
         <button type="submit" onClick={verifyData}>Enviar</button>
-      </div>
+      </div> 
     </>
   );
 }
