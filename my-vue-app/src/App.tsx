@@ -1,7 +1,6 @@
 
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-
 import PagesInicial from './pages/PagesInicial'
 import SobreEljuego from './pages/SobreEljuego'
 import DevLog from './pages/DevLog'
@@ -11,6 +10,9 @@ import AvisoLegal from './pages/AvisoLegal'
 import Registrar from './pages/Registrar'
 import IniSesion from './pages/IniSesion'
 import Formulario from './pages/Formulario'
+import IniciarSesion from './pages/IniciarSesion'
+
+
 
 function App() {
   
@@ -27,6 +29,7 @@ function App() {
         <Route path='/Registrar' element={<Registrar />} />
         <Route path='/IniSesion' element={<IniSesion />} />
         <Route path='/Formulario' element={<Formulario />} />
+        <Route path='/IniciarSesion+' element={<IniciarSesion />} />
       </Routes>
     </>
   )
