@@ -26,13 +26,17 @@ function Comunidad() {
     return (
         <>
             <Comunidadcomponents />
-            <h3>GetFormulario</h3>
-            <div>
+            <h3>FanArts</h3>
+            <div className="fanarts" >
             {formularios.map((form, index) => (
                 <div key={index}>
                 <h5>{form.name}</h5>
                 <p>{form.comentario}</p>
-                <img src={form.image} alt="Imagen subida" />
+                <img
+                    src={`http://localhost:4000${form.image}`} // Ruta completa de la imagen
+                    alt="Imagen subida"
+                    style={{ width: "200px", height: "auto"}}
+                />
                 </div>
                 ))};
             </div>   

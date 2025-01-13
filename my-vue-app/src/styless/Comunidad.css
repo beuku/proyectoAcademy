@@ -10,6 +10,10 @@ div.com{
     z-index: 10;
 }/* Ya no modificamos div.com, según tu petición */
 
+.fanarts{
+    
+}
+
 div.cajas {
     display: grid; /* Usamos grid para centrar */
     place-items: center; /* Centra los elementos dentro del grid */

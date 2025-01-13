@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styless/IniSesion.css";
 import "../styless/HeaderStyless.css";
@@ -86,9 +86,9 @@ function Formulario() {
           id="image"
           onChange={(e) => {
             if (e.target.files && e.target.files[0]) {
-              setImage(e.target.files[0]); // Actualiza el estado con el archivo seleccionado
+              setImage(e.target.files[0]); 
             } else {
-              setImage(null); // Restablece el estado si no hay archivo seleccionado
+              setImage(null); 
             }
           }}
           accept="image/*"
