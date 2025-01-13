@@ -10,9 +10,9 @@ interface Review {
 
   const ReviewSection = () => {
     const [reviews, setReviews] = useState<Review[]>([]);
-    const [name, setName] = useState<string>(""); // Estado para el nombre
-    const [rating, setRating] = useState<number | "">(""); // Estado para la calificación
-    const [comment, setComment] = useState<string>(""); // Estado para el comentario
+    const [name, setName] = useState<string>(""); 
+    const [rating, setRating] = useState<number | "">(""); 
+    const [comment, setComment] = useState<string>(""); 
 
   function handleSubmit (e: React.FormEvent)  {
     e.preventDefault();
@@ -31,30 +31,30 @@ interface Review {
   return (
     <div className="review-section">  
       <form className="review-form" onSubmit={handleSubmit}>
-      <label>Nombre:</label>
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Escribe tu nombre"
-        />
+        <label>Nombre:</label>
+            <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Escribe tu nombre"
+            />
 
 
         <label>Calificación (1-5):</label>
-        <input
-          type="number"
-          min="1"
-          max="5"
-          value={rating}
-          onChange={(e) => setRating(Number(e.target.value) || "")}
-          placeholder="Ingrese una calificación"
-        />
+            <input
+            type="number"
+            min="1"
+            max="5"
+            value={rating}
+            onChange={(e) => setRating(Number(e.target.value) || "")}
+            placeholder="Ingrese una calificación"
+            />
         <label>Comentario:</label>
-        <textarea
-          value={comment}
-          onChange={(e) => setComment(e.target.value)}
-          placeholder="Escribe tu comentario aquí..."
-        />
+            <textarea
+            value={comment}
+            onChange={(e) => setComment(e.target.value)}
+            placeholder="Escribe tu comentario aquí..."
+            />
         <button type="submit">Enviar Reseña</button>
       </form>
       <ul className="review-list">
@@ -62,14 +62,14 @@ interface Review {
           <li key={review.id}>
             <p>
             <strong>{review.name || "Anónimo"}:</strong> 
-              <span className="rating-stars">
-                {"★".repeat(review.rating)}{" "}
-                {"☆".repeat(5 - review.rating)}
-              </span>
+                <span className="rating-stars">
+                    {"★".repeat(review.rating)}{" "}
+                    {"☆".repeat(5 - review.rating)}
+                </span>
             </p>
             <p>{review.comment}</p>
           </li>
-        ))}
+    ))}
       </ul>
     </div>
   );
