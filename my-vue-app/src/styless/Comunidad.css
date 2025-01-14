@@ -10,6 +10,19 @@ div.com{
     z-index: 10;
 }
 
+.fanarts{
+    width: 100%; /* Hacemos que la imagen ocupe el 100% del contenedor */
+    max-width: 3000px; /* Limita el tamaño máximo */
+    height: 300px;
+    background-image: url(../assets/thumb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    border: 7px solid #000000; 
+    
+}
+
 div.cajas {
     display: grid; 
     place-items: center; 
