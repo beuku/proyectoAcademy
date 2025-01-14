@@ -1,50 +1,47 @@
-import "../styless/HeaderStyless.css"
+import "../styless/HeaderStyless.css";
 import { Link } from "react-router-dom";
-
 import IniSesionComponents from "./IniSesionComponents";
-
-
 
 function HeaderComponemts() {
   return (
     <>
+      <div className="nav">
         <div className="nav">
-            <div className="nav">
-            <img className="imgicono" src="src/assets/icono10.png" alt="" width="80px"></img>
-                <li className="li">
-                    <Link className="link" to="/">Inicio</Link>
-                </li>
+          <img className="imgicono" src="src/assets/icono10.png" alt="" width="80px" />
+          
+          <li className="li">
+            <Link className="link" to="/">Inicio</Link>
+          </li>
 
-                <li className="li">
-                    <Link className="link" to="/SobreEljuego">Sobre el juego</Link>
-                </li>
+          <li className="li">
+            <Link className="link" to="/SobreEljuego">Sobre el juego</Link>
+          </li>
 
-                <li className="li">
-                    <Link className="link" to="/DevLog">DevLog</Link>
-                </li>
+          <li className="li">
+            <Link className="link" to="/DevLog">DevLog</Link>
+          </li>
 
-                <li className="li">
-                    <Link className="link" to="/Comunidad">Comunidad</Link>
-                </li>
+          <li className="li">
+            <Link className="link" to="/Comunidad">Comunidad</Link>
+          </li>
 
-                <li className="li">
-                    <Link className="link" to="/Descarga">Descarga</Link>     
-                </li>
+          <li className="li">
+            <Link className="link" to="/Descarga">Descarga</Link>
+          </li>
 
-                <li className="li">
-                    <Link className="link" to="/AvisoLegal">Aviso legal</Link>
-                </li>
-            <IniSesionComponents />
-            </div>
-
-            </div>
-            <header className="header">
-                <img className="baner" src="./src/assets/Cap.png" alt="banner" />
-            </header> 
-        
-
+          <li className="li">
+            <Link className="link" to="/AvisoLegal">Aviso legal</Link>
+          </li>
+          
+          <IniSesionComponents />
+        </div>
+      </div>
+      
+      <header className="header">
+        <img className="baner" src="./src/assets/Cap.png" alt="banner" />
+      </header>
     </>
-  )
+  );
 }
 
-export default HeaderComponemts
+export default HeaderComponemts;

@@ -1,10 +1,8 @@
 import "../styless/Sobrejuego.css"
 import ReactPlayer from "react-player";
 
-
 function Sobrejuego() {
   return (
-
 
       <body className="body-sobrejuego">
 
@@ -18,16 +16,13 @@ function Sobrejuego() {
         />
       </div>
 
-
       <h4 > 
-
-        
+ 
         <p className="margen2"> <h1 className="titulo-p">Modo de juego</h1>
         <p className="TEXTO">Albion Online es un juego de fantasía MMORPG 
           sandbox que tiene una economía manejada por los jugadores, un 
           sistema de combate sin clases, e intensas batallas de PvP. Explora 
           el vasto mundo lleno de peligros y oportunidades.
-
 
         </p>
    
@@ -49,13 +44,7 @@ function Sobrejuego() {
 
         </body>
 
-
-      
-      
-
-    
   )
 }
-
 
 export default Sobrejuego;
