@@ -10,7 +10,7 @@ function HeaderComponemts() {
     <>
         <div className="nav">
             <div className="nav">
-            <img src="src/assets/icono10.png" alt="" width="80px"></img>
+            <img className="imgicono" src="src/assets/icono10.png" alt="" width="80px"></img>
                 <li className="li">
                     <Link className="link" to="/">Inicio</Link>
                 </li>

@@ -11,16 +11,16 @@ div.com{
 }
 
 .fanarts{
-    width: 100%; /* Hacemos que la imagen ocupe el 100% del contenedor */
-    max-width: 3000px; /* Limita el tamaño máximo */
+    border-radius: 10px;
+    width: 100%; 
+    max-width: 3000px; 
     height: 300px;
     background-image: url(../assets/thumb.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
-    border: 7px solid #000000; 
-    
+    border: 7px solid #000000;  
 }
 
 div.cajas {
@@ -40,6 +40,7 @@ div.cajas {
 }
 
 p.imagenes {
+    
     width: 100%; 
     max-width: 3000px; 
     height: 300px;
