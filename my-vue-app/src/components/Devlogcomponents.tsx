@@ -1,57 +1,15 @@
 import "../styless/DevlogStyles.css"
-import { Link } from "react-router-dom";
 import AspectRatio from '@mui/joy/AspectRatio';
 
 
 function Devlogcomponents() {
   return (
 
-  <header>    
-    <div className="nav">
-      <img src="src/assets/icono10.png" alt="" width="80px"></img>
-      <li className="li">
-          <Link className="link" to="/">Inicio</Link>
-      </li>
-
-      <li className="li">
-          <Link className="link" to="/SobreEljuego">Sobre el juego</Link>
-      </li>
-
-      <li className="li">
-          <Link className="link" to="/DevLog">DevLog</Link>
-      </li>
-
-      
-      <li className="li">
-          <Link className="link" to="/Comunidad">Comunidad</Link>
-      </li>
-
-      <li className="li">
-          <Link className="link" to="/Descarga">Descarga</Link>     
-      </li>
-
-      <li className="li">
-          <Link className="link" to="/AvisoLegal">Aviso legal</Link>
-      </li>
-  </div>
-
-
-
-
-
-
       <body className='body-Devlog'>   
  
-
-
-  
-
-
       <h1 className="desarrolladores-">
         !Desarrolladores!
       </h1>
-        
-        
       
         <h3 className="-somos">
         Apartado de versiones del juego, Donde los usuarios 
@@ -123,16 +81,6 @@ function Devlogcomponents() {
         </div>
  
     </body>
-      <footer className="patas-dev">
-
-
-
-      </footer>
-
-  </header>
-
-
-
 
   )
 }

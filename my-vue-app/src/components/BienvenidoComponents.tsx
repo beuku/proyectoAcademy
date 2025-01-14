@@ -11,11 +11,6 @@ function BienvenidoComponents() {
                 y dominar el juego. Unete a la comunidad, compite con jugadores 
                 de todo el mundo y descubre nuevos niveles de diversion en cada 
                 partida. ¡Tu aventura comienza ahora por ShaqVeyter!
-
-            
-                
-                
-    
                 </h2>
   )
 }

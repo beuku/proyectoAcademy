@@ -1,16 +1,14 @@
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
-
-import IniSesionComponents from "./IniSesionComponents";
-
+import IniSesionComponents from "../components/IniSesionComponents";
 
 
-function HeaderComponemts() {
+function ComponenteDeComponenteHeader() {
   return (
     <>
         <div className="nav">
             <div className="nav">
-            <img className="imgicono" src="src/assets/icono10.png" alt="" width="80px"></img>
+            <img src="src/assets/icono10.png" alt="" width="80px"></img>
                 <li className="li">
                     <Link className="link" to="/">Inicio</Link>
                 </li>
@@ -36,15 +34,10 @@ function HeaderComponemts() {
                 </li>
             <IniSesionComponents />
             </div>
-
             </div>
-            <header className="header">
-                <img className="baner" src="./src/assets/Cap.png" alt="banner" />
-            </header> 
-        
-
+           
     </>
   )
 }
 
-export default HeaderComponemts
+export default ComponenteDeComponenteHeader
