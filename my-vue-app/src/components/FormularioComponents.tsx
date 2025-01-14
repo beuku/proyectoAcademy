@@ -5,7 +5,7 @@ import "../styless/FormularioStyles.css"
 function FormularioComponents() {
   return (
     <div>
-        <Link to="/Formulario" className="buttonRegistrar"><Button className="stylboton" variant="contained">Subir fanArt</Button></Link>
+        <Link to="/Formulario" className="buttonFORMULARIO"><Button className="stylboton" variant="contained">Subir fanArt</Button></Link>
     </div>
   )
 }

@@ -1,9 +1,9 @@
-.buttonRegistrar{
+.buttonFORMULARIO{
     position: fixed;
-    top: 8px; 
+    bottom: 8px; 
     right: 8px; 
     padding: 9px 9px;
-    cursor: pointer;
+    cursor: alias;
 }
 
 .formulario{

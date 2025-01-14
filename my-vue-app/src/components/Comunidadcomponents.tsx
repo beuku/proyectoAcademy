@@ -2,8 +2,9 @@ import "../styless/Comunidad.css"
 import AspectRatio from '@mui/joy/AspectRatio';
 import FormularioComponents from "./FormularioComponents";
 import { useEffect, useState } from 'react';
-import { useState } from 'react';
+
 import { filtrarComentario } from './Moderacion';
+import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader";
 
 
 function Comunidadcomponents() {
@@ -33,39 +34,42 @@ function Comunidadcomponents() {
         }
       };
   
-      fetchFormularios(); // Llamar a la función al cargar el componente
+      fetchFormularios(); 
     }, []);
 
 
     return (
-
-      <body className="body-Comunidad">  
-       
-        <h1 className="Comunidad"> ¡Comunidad!</h1>
-        <div>
+      <>
+        <ComponenteDeComponenteHeader />
+        <FormularioComponents />
+        <body className="body-Comunidad">  
+        
+          <h1 className="Comunidad"> ¡Comunidad!</h1>
           <div>
-            {formularios.map((form, index) => (
-              <div key={index} className="cajas">
-                <AspectRatio className="CAJA" sx={{ width: 1000 }}>
-                  <img  className="fanarts"
-                    src={`http://localhost:4000${form.image}`} // Ruta completa de la imagen
-                    alt="Imagen subida"
+            <div>
+              {formularios.map((form, index) => (
+                <div key={index} className="cajas">
+                  <AspectRatio className="CAJA" sx={{ width: 1000 }}>
+                    <img  className="fanarts"
+                      src={`http://localhost:4000${form.image}`} // Ruta completa de la imagen
+                      alt="Imagen subida"
+                    />
+                  </AspectRatio>
+                  <h2 className="titulo-imagenn">{form.name}</h2>
+                  <p className="descripcion">{form.comentario}</p>
+                  <input
+                    type="text"
+                    className="comentario"
+                    value={comentario}  
+                    onChange={handleComentarioChange}  
+                    placeholder="Escribe tu comentario..."
                   />
-                </AspectRatio>
-                <h2 className="titulo-imagenn">{form.name}</h2>
-                <p className="descripcion">{form.comentario}</p>
-                <input
-                  type="text"
-                  className="comentario"
-                  value={comentario}  
-                  onChange={handleComentarioChange}  
-                  placeholder="Escribe tu comentario..."
-                />
-              </div>
-            ))};
-          </div>    
-        </div>
-      </body>
+                </div>
+              ))};
+            </div>    
+          </div>
+        </body>
+      </>
   )
 }
 
