@@ -2,7 +2,6 @@ import "../styless/Comunidad.css"
 import AspectRatio from '@mui/joy/AspectRatio';
 import FormularioComponents from "./FormularioComponents";
 import { useEffect, useState } from 'react';
-
 import { filtrarComentario } from './Moderacion';
 import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader";
 
