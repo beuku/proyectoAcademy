@@ -12,8 +12,8 @@ h1.desarrolladores-{
     margin-top: 100px;
     background-color: #1e9181;   
     padding: 20px;         
-
- 
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     border-radius: 20px;
 
@@ -38,6 +38,8 @@ h3.-somos{
     margin-right: auto;
     margin-bottom: 50px;
     margin-top: 50px;
+    color: #ffffff;
+
     
 }
 
@@ -54,7 +56,7 @@ p.imagen-DEV{
 }
 
 div.BOX{
-    border: 2px solid #0000005d; 
+    border: 4px solid #0000005d; 
     display: inline-block;  
     margin: 20px;
     border-width: 10px;
@@ -72,20 +74,25 @@ div.CAJA{
     margin-right: auto;  
 }
 
-h2.titulo-imagenn{
+.MuiTypography-root.MuiTypography-h2.titulo-imagenn.css-o2za6n-MuiTypography-root{
     
-    background-color: rgb(30, 99, 76);   
-    padding: 20px;         
+    background-color: rgb(40, 110, 86);   
+    padding: 5px;         
     border-radius: 10px;
     margin-top: 20px;
     display: inline-block;
+    color: #ffffff;
+    font-size: 40px; 
+    font-weight: bold; 
+    text-align: center; 
+    
 }
-p.descr{
+.MuiTypography-root.css-rizt0-MuiTypography-root{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
     max-width: 700px;
-    
+    color: #ffffff;
     
 }
