@@ -65,7 +65,7 @@ function Comunidadcomponents() {
                     placeholder="Escribe tu comentario..."
                   />
                 </div>
-              ))};
+              ))}
             </div>    
           </div>
         </body>

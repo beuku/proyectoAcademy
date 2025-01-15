@@ -1,8 +1,11 @@
 import "../styless/AvisoLegalStyles.css";
+import VerticalTabs from "./TabPanelComponents";
 
 function AvisoLegalComponents() {
   return (
     <>
+      
+
       <h1>Avisos Legales</h1>
 
       <div className="div">
@@ -58,6 +61,7 @@ function AvisoLegalComponents() {
         Sueradmin no se hace responsable por los daños que se puedan causar en los equipos o sistemas de los usuarios por posibles virus informáticos que se hubieran podido contraer por la navegación del usuario en el sitio Web.
       </div>
 
+      
     </>
   );
 }
