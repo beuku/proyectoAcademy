@@ -1,11 +1,12 @@
 import "../styless/AvisoLegalStyles.css";
-import VerticalTabs from "./TabPanelComponents";
+import IndiceLateral from "./IndiceLateralComponents";
+
 
 function AvisoLegalComponents() {
   return (
     <>
       
-
+           
       <h1>Avisos Legales</h1>
 
       <div className="div">
@@ -17,6 +18,8 @@ function AvisoLegalComponents() {
         Puedes contactar con Superadmin a través del correo electrónico ayuda@superadmin.es y a través de las 
         formas de contacto que encontrarás en <a href="https://superadmin.es/contacto"> https://superadmin.es/contacto</a>
       </div>
+      
+      <IndiceLateral />
 
       <h2 className="h2">1. Objeto</h2>
       <div className="div2">
