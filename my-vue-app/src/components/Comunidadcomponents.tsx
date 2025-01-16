@@ -11,29 +11,28 @@ function Comunidadcomponents() {
   const [formularios, setFormularios] = useState<any[]>([]);
 
   const handleComentarioChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const nuevoComentario = e.target.value;  
+  const nuevoComentario = e.target.value;  
    
-    const comentarioFiltrado = filtrarComentario(nuevoComentario);
-
-   
-    setComentario(comentarioFiltrado);
-    };
+  const comentarioFiltrado = filtrarComentario(nuevoComentario);
+  setComentario(comentarioFiltrado);
+  
+};
     
-    useEffect(() => {
-      const fetchFormularios = async () => {
-        try {
-          const response = await fetch("http://localhost:4000/Comunidad");
+  useEffect(() => {
+    const fetchFormularios = async () => {
+      try {
+        const response = await fetch("http://localhost:4000/Comunidad");
           if (!response.ok) {
             throw new Error(`Error: ${response.status}`);
           }
           const result = await response.json();
           setFormularios(result); // Guardar los datos en el estado
-        } catch (error) {
+          } catch (error) {
           console.error("Error al obtener los formularios:", error);
         }
       };
   
-      fetchFormularios(); 
+    fetchFormularios(); 
     }, []);
 
 
@@ -56,13 +55,13 @@ function Comunidadcomponents() {
                   </AspectRatio>
                   <h2 className="titulo-imagenn">{form.name}</h2>
                   <p className="descripcion">{form.comentario}</p>
-                  <input
-                    type="text"
-                    className="comentario"
-                    value={comentario}  
-                    onChange={handleComentarioChange}  
-                    placeholder="Escribe tu comentario..."
-                  />
+                    <input
+                      type="text"
+                      className="comentario"
+                      value={comentario}  
+                      onChange={handleComentarioChange}  
+                      placeholder="Escribe tu comentario..."
+                    />
                 </div>
               ))};
             </div>    
