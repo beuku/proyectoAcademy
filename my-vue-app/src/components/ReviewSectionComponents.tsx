@@ -37,29 +37,29 @@ const ReviewSection = () => {
     <div className="review-section">
       <form className="review-form" onSubmit={handleSubmit}>
         <label>Nombre:</label>
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Escribe tu nombre"
-        />
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Escribe tu nombre"
+          />
 
         <label>Calificación (1-5):</label>
-        <input
-          type="number"
-          min="1"
-          max="5"
-          value={rating}
-          onChange={(e) => setRating(Number(e.target.value) || "")}
-          placeholder="Ingrese una calificación"
-        />
+          <input
+            type="number"
+            min="1"
+            max="5"
+            value={rating}
+            onChange={(e) => setRating(Number(e.target.value) || "")}
+            placeholder="Ingrese una calificación"
+          />
 
         <label>Comentario:</label>
-        <textarea
-          value={comment}
-          onChange={(e) => setComment(e.target.value)}
-          placeholder="Escribe tu comentario aquí..."
-        />
+          <textarea
+            value={comment}
+            onChange={(e) => setComment(e.target.value)}
+            placeholder="Escribe tu comentario aquí..."
+          />
         
         <button type="submit">Enviar Reseña</button>
       </form>
