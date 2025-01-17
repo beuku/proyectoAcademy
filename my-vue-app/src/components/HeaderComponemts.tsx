@@ -1,43 +1,12 @@
-import "../styless/HeaderStyless.css";
-import { Link } from "react-router-dom";
-import IniSesionComponents from "./IniSesionComponents";
+import "../Carpetacomponente2/RealHeader"
+import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader";
 
 function HeaderComponemts() {
   return (
     <>
-      <div className="nav">
-        <div className="nav">
-          <img className="imgicono" src="src/assets/icono10.png" alt="" width="80px" />
-          
-          <li className="li">
-            <Link className="link" to="/">Inicio</Link>
-          </li>
-
-          <li className="li">
-            <Link className="link" to="/SobreEljuego">Sobre el juego</Link>
-          </li>
-
-          <li className="li">
-            <Link className="link" to="/DevLog">DevLog</Link>
-          </li>
-
-          <li className="li">
-            <Link className="link" to="/Comunidad">Comunidad</Link>
-          </li>
-
-          <li className="li">
-            <Link className="link" to="/Descarga">Descarga</Link>
-          </li>
-
-          <li className="li">
-            <Link className="link" to="/AvisoLegal">Aviso legal</Link>
-          </li>
-          
-          <IniSesionComponents />
-        </div>
-      </div>
-      
-      <header className="header">
+    <ComponenteDeComponenteHeader/>
+    
+      <header>
         <img className="baner" src="./src/assets/Cap.png" alt="banner" />
       </header>
     </>
