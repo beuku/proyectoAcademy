@@ -3,10 +3,17 @@ import { Link } from "react-router-dom";
 import "../styless/IniSesion.css";
 import "../styless/HeaderStyless.css";
 
+
+
 function Formulario() {
   const [name, setName] = useState("");
   const [comentario, setComentario] = useState("");
-  const [image, setImage] = useState<File | null>(null); // Cambiar a null para manejar el archivo
+  const [image, setImage] = useState<File | null>(null); 
+
+
+ 
+
+
 
   const verifyData = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
@@ -79,16 +86,16 @@ function Formulario() {
           id="image"
           onChange={(e) => {
             if (e.target.files && e.target.files[0]) {
-              setImage(e.target.files[0]); // Actualiza el estado con el archivo seleccionado
+              setImage(e.target.files[0]); 
             } else {
-              setImage(null); // Restablece el estado si no hay archivo seleccionado
+              setImage(null); 
             }
           }}
           accept="image/*"
           required
         />
         <button type="submit" onClick={verifyData}>Enviar</button>
-      </div>
+      </div> 
     </>
   );
 }

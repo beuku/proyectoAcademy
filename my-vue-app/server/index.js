@@ -50,50 +50,21 @@ app.post("/IniciarSesion", async (req, res) => {
   }
 });
 
-app.get('/formularios', async (req, res) => {
-  try {
-    const formularios = await Cliente.find({});
-    console.log(formularios)
-    res.status(200).json(formularios);
-  } catch (error) {
-    res.status(500).json({ error: 'Internal Server Error' });
-  }
-});
 
   
-app.delete('/formularios/:id',  async (req, res) => {
-  const { Types } = require('mongoose');
-  const id = new Types.ObjectId(req.params.id);
-  console.log(id)
-
-  try {
-    const deletedFormulario = await Cliente.findByIdAndDelete(id);
-    if (!deletedFormulario) {
-      return res.status(404).json({ error: 'Formulario no encontrado' });
-    }
-    res.status(200).json({ message: 'Formulario eliminado con éxito', deletedFormulario });
-  } catch (error) {
-      res.status(500).json({ error: 'Error interno del servidor' });
-  }
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, "uploads/"); // Directorio donde se guardarán las imágenes
+  },
+  filename: (req, file, cb) => {
+    cb(null, Date.now() + "-" + file.originalname); // Nombre único para cada archivo
+  },
 });
+const upload = multer({ storage });
 
-app.put('/formularios/:id', validateObjectId ,async (req, res) => {
-  const { Types } = require('mongoose');
-  const id = new Types.ObjectId(req.params.id);
-  const updateData = req.body;
-  console.log(id)
-  try {
-    const result = await Cliente.findByIdAndUpdate(id, updateData, {new: true });
-    res.status(200).json(result);
-  }catch (error){
-    console.error(error);
-    res.status(500).send("Error al actualizar el formulario");
-  }
-});
 
-const upload = multer({ dest: 'uploads/' });
 
-// Connect to MongoDB
+
 
 app.post("/Formulario", upload.single("image"), async (req, res) => {
   try {
@@ -103,13 +74,13 @@ app.post("/Formulario", upload.single("image"), async (req, res) => {
       return res.status(400).json({ message: "Debe subir una imagen." });
     }
 
-    const imageUrl = `/uploads/${req.file.filename}`; // Ruta relativa de la imagen
+    
 
-    // Crear un nuevo documento en MongoDB
+ 
     const formulario = new Formulario({
       name,
       comentario,
-      image: imageUrl, // Almacena la ruta de la imagen
+      image:`/uploads/${req.file.filename}`,  
     });
 
     const result = await formulario.save();
@@ -123,5 +94,16 @@ app.post("/Formulario", upload.single("image"), async (req, res) => {
     res.status(500).json({ message: "Error interno del servidor." });
   }
 });
+
+app.get("/Comunidad", async (req, res) => {
+  try {
+    const formularios = await Formulario.find(); // Obtén todos los documentos de la colección
+    res.status(200).json(formularios);
+  } catch (error) {
+    console.error("Error al obtener los formularios:", error);
+    res.status(500).json({ message: "Error interno del servidor." });
+  }
+});
+app.use("/uploads", express.static("uploads"));
 app.listen(4000);
 
