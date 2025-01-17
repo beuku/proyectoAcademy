@@ -28,10 +28,12 @@ export default function IndiceLateral() {
     }
   };
 
+  
+
   return (
     <div style={{ display: "flex"}}>
       <Drawer variant="permanent" anchor="left">
-        <Box sx={{ width: 250, padding: 2, background: "#242424" }}>
+        <Box sx={{ width: 250, padding: 2, background: "#242424", color: "#f8dfde" }}>
           <Typography variant="h6">Índice</Typography>
           <List>
             {sections.map((section) => (
