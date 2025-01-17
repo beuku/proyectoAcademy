@@ -47,15 +47,15 @@ export default function IndiceLateral() {
           </List>
         </Box>
       </Drawer>
-      <Box sx={{ marginLeft: "260px", padding: 2,background: "#242424", width: "98%"  }}>
+      <Box sx={{ marginLeft: "260px", padding: 2,background: "#000000", width: "98%"  }}>
         {sections.map((section) => (
           <div
             key={section.id}
             id={section.id}
             
           >
-            <Typography variant="h5" className="h2">{section.title}</Typography>
-            <Typography className="div2">
+            <Typography variant="h4"  sx={{ marginLeft: "20px",  }}>{section.title}</Typography>
+            <Typography className="div2" >
               {sectionData[section.id as keyof typeof sectionData]}
             </Typography>
           </div>
