@@ -45,7 +45,7 @@ const ReviewSection = () => {
             variant="outlined"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Escribe tu nombre"
+            placeholder="Escribe tu nombre..."
             size="small"
           />
 
@@ -64,7 +64,7 @@ const ReviewSection = () => {
                 setRating(""); 
               }
             }}
-            placeholder="Ingrese una calificación"
+            placeholder="Ingrese una calificación..."
           />
 
         <label>Comentario:</label>
@@ -75,7 +75,7 @@ const ReviewSection = () => {
             placeholder="Escribe tu comentario aquí..."
             
           />
-          
+
         <button type="submit">Enviar Reseña</button>
       </form>
 
