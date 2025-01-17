@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "../styless/ReviewSection.css";
 import Moderacion from "./Moderacion"; 
+import { TextField, TextareaAutosize, } from "@mui/material";
+
 
 interface Review {
   id: number;
@@ -37,30 +39,43 @@ const ReviewSection = () => {
     <div className="review-section">
       <form className="review-form" onSubmit={handleSubmit}>
         <label>Nombre:</label>
-          <input
-            type="text"
+          <TextField
+            className="input-full-width "
+            fullWidth
+            variant="outlined"
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Escribe tu nombre"
+            size="small"
           />
 
         <label>Calificación (1-5):</label>
-          <input
+          <TextField
+            className="input-full-width "
+            fullWidth
+            variant="outlined"
             type="number"
-            min="1"
-            max="5"
             value={rating}
-            onChange={(e) => setRating(Number(e.target.value) || "")}
+            onChange={(e) => {
+              const value = Number(e.target.value);
+              if (value >= 1 && value <= 5) {
+                setRating(value); 
+              } else if (e.target.value === "") {
+                setRating(""); 
+              }
+            }}
             placeholder="Ingrese una calificación"
           />
 
         <label>Comentario:</label>
-          <textarea
+          <TextareaAutosize
+            minRows={3}
             value={comment}
             onChange={(e) => setComment(e.target.value)}
             placeholder="Escribe tu comentario aquí..."
+            
           />
-        
+          
         <button type="submit">Enviar Reseña</button>
       </form>
 

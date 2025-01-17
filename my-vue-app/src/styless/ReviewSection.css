@@ -27,15 +27,14 @@
     margin-left: 100px;
   }
   
-  .review-form input{
+  .MuiFormControl-root.input-full-width{
 
     width: 30%;
-    padding: 10px;
     margin-bottom: 20px;
     display: flex;
     border-radius: 10px;
     margin-left: 100px;
-
+    background-color: white;
   }
   .review-form textarea {
     width: 40%;
