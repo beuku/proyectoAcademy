@@ -50,7 +50,7 @@ const ReviewSection = () => {
             size="small"
           />
 
-        <label>Calificación (1-5):</label>
+        <label>Calificación (1 a 5 estrellas):</label>
         <Rating
           name="half-rating"
           value={rating === "" ? 0 : rating} 
@@ -80,7 +80,7 @@ const ReviewSection = () => {
                 name="read-only"
                 value={review.rating}
                 readOnly
-                precision={0.5} 
+                precision={1} 
               />
             </p>
 
