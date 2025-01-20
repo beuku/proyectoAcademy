@@ -1,7 +1,7 @@
 import Footercomponents from "../components/Footercomponents";
 import Comunidadcomponents from "../components/Comunidadcomponents";
-import "../Carpetacomponente2/RealHeader"
-import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader";
+import "../components/RealHeader"
+import Header from  "../components/RealHeader";
 
 
 
@@ -9,7 +9,7 @@ function Comunidad() {
      
     return (
         <>
-            <ComponenteDeComponenteHeader />
+            <Header />
             <Comunidadcomponents />
                
             <Footercomponents />

@@ -4,7 +4,7 @@ import IniSesionComponents from "../components/IniSesionComponents";
 import { Box } from "@mui/material";
 
 
-function ComponenteDeComponenteHeader() {
+function Header() {
   return (
     <>
         <Box className="nav">
@@ -41,4 +41,4 @@ function ComponenteDeComponenteHeader() {
   )
 }
 
-export default ComponenteDeComponenteHeader
+export default Header

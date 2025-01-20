@@ -1,10 +1,10 @@
-import "../Carpetacomponente2/RealHeader"
-import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader";
+import "./RealHeader"
+import Header from "./RealHeader";
 
 function HeaderComponemts() {
   return (
     <>
-    <ComponenteDeComponenteHeader/>
+    <Header/>
     
       <header>
         <img className="baner" src="./src/assets/Cap.png" alt="banner" />

@@ -1,13 +1,13 @@
 import Footercomponents from "../components/Footercomponents"
 import Descargacomponents from "../components/Descargacomponents"
-import "../Carpetacomponente2/RealHeader"
-import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader"
+import  "../components/RealHeader"
+import Header from  "../components/RealHeader"
 
 
 function Descarga() {
     return (
       <>
-        <ComponenteDeComponenteHeader/>
+        <Header/>
         <Descargacomponents />
         <Footercomponents /> 
       </>
