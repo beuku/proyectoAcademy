@@ -71,6 +71,7 @@ img.baner{
     flex-wrap: wrap; 
     gap: 15px; 
     width: 98.7%; 
+    margin-top: 100px;
 }
 
 
