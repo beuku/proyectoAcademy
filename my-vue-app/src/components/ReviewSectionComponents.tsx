@@ -5,11 +5,11 @@ import { TextField, TextareaAutosize, Rating } from "@mui/material";
 
 
 interface Review {
-  id: number;
-  name: string;
-  rating: number;
-  comment: string;
-}
+    id: number;
+    name: string;
+    rating: number;
+    comment: string;
+  }
 
 const ReviewSection = () => {
   const [reviews, setReviews] = useState<Review[]>([]);
@@ -18,7 +18,7 @@ const ReviewSection = () => {
   const [comment, setComment] = useState<string>(""); 
   
 
-  const handleSubmit = (e: React.FormEvent) => {
+  function handleSubmit (e: React.FormEvent)  {
     e.preventDefault();
     if (!name || !rating || !comment) {
       alert("Por favor, complete todos los campos.");
@@ -39,8 +39,8 @@ const ReviewSection = () => {
   return (
     <div className="review-section">
       <form className="review-form" onSubmit={handleSubmit}>
-        <label>Nombre:</label>
-          <TextField
+        <label className="texto">Nombre:</label>
+            <TextField
             className="input-full-width "
             fullWidth
             variant="outlined"
@@ -48,18 +48,18 @@ const ReviewSection = () => {
             onChange={(e) => setName(e.target.value)}
             placeholder="Escribe tu nombre..."
             size="small"
-          />
+            />
 
-        <label>Calificación (1 a 5 estrellas):</label>
+        <label className="texto">Calificación (1 a 5 estrellas):</label>
         <Rating
           name="half-rating"
           value={rating === "" ? 0 : rating} 
           onChange={(_, newValue) => setRating(newValue ?? "")} 
-          precision={0.5}
+          precision={1}
           className="miclase"
         />
 
-        <label>Comentario:</label>
+        <label className="texto">Comentario:</label>
           <TextareaAutosize
             minRows={3}
             value={comment}
@@ -71,21 +71,21 @@ const ReviewSection = () => {
         <button type="submit">Enviar Reseña</button>
       </form>
 
+
       <ul className="review-list">
         {reviews.map((review) => (
+
           <li className="review-li" key={review.id}>
             <p className="ESTRELLA">
               <strong>{review.name || "Anónimo"}:</strong>
-              <Rating
-                name="read-only"
-                value={review.rating}
-                readOnly
-                precision={1} 
-              />
+              <span>
+                {"★".repeat(review.rating)}{"☆".repeat(5 - review.rating)}
+              </span>
             </p>
 
             <p className="Comentario-R">
               <Moderacion comment={review.comment} />
+
             </p>
           </li>
         ))}

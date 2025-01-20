@@ -8,14 +8,10 @@
     margin-right: 1100px;
     color: #ffffff;
   }
-  
-  
-  .review-form {
-    margin-bottom: 20px;
-    margin-top: 20px;
+  div.estrella{
+    margin-right: 100px;
   }
-  
-  .review-form label {
+  label.texto{
     font-weight: bold;
     display: flex;
     justify-content: left;
@@ -24,6 +20,13 @@
     margin-left: 100px;
   }
   
+  .review-form label {
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+    color: #ccc;
+  }
   .MuiFormControl-root.input-full-width{
 
     width: 30%;
@@ -50,29 +53,30 @@
     color: white;
     border-radius: 5px;
     margin-top: 20px;
-    margin-right: 1100px;
+    margin-right: 1147px;
    
   }
 
   .review-list {
-    
+    margin-top: 60px;
     padding: 5px;
   }
-  
+  span.MuiRating-root.MuiRating-sizeMedium.miclase.css-1xc33vf-MuiRating-root{
+    margin-left: -465px;
+  }
   .review-list li {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
   }
-  
   .review-list p {
-    margin: 5px 0;
+    margin: 6px 0;
   }
   
-  p strong {
-    color: rgba(135, 224, 127, 0.788);
-    padding-right: 10px;
+  li{
+    display: block;
   }
+ 
   
   .review-li{
 
@@ -92,8 +96,12 @@
     
     
   }
-
-  
+strong{
+  color: #46c06e;
+}
+  span{
+    color: #f9fd11;
+  }
 
   .MuiRating-iconEmpty {
     background-color: #9e9a9a; 
