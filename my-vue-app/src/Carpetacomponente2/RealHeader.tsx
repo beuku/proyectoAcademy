@@ -1,12 +1,13 @@
 import "../styless/HeaderStyless.css"
 import { Link } from "react-router-dom";
 import IniSesionComponents from "../components/IniSesionComponents";
+import { Box } from "@mui/material";
 
 
 function ComponenteDeComponenteHeader() {
   return (
     <>
-        <div className="nav">
+        <Box className="nav">
             <div className="nav">
             <img src="src/assets/icono10.png" alt="" width="80px"></img>
                 <li className="li">
@@ -34,7 +35,7 @@ function ComponenteDeComponenteHeader() {
                 </li>
             <IniSesionComponents />
             </div>
-            </div>
+            </Box>
            
     </>
   )

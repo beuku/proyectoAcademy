@@ -6,6 +6,7 @@ function RegitrarComponents() {
 
 
     <div>
+
       <Link to="/Registrar" >Crear un cuenta</Link>
 
     </div>

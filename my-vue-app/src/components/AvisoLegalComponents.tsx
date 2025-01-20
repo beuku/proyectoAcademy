@@ -8,6 +8,7 @@ function AvisoLegalComponents() {
            
       <h1>Avisos Legales</h1>
 
+
       <div className="div">
         En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, 
         de Servicios de la Sociedad de la Información y Comercio Electrónico te informamos que el Titular del sitio web superadmin.
@@ -19,6 +20,7 @@ function AvisoLegalComponents() {
       </div>
       <IndiceLateral />
       
+
     </>
   );
 }

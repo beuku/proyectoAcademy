@@ -21,7 +21,6 @@ interface ModeracionProps {
 
 const blockedWords = ["YOELPICHULA", "PICO", "NEGRO", "GAY", "WEKO", "ZORRA", ];
 
-
 const filterComment = (comment: string) => {
   let filteredComment = comment;
 
