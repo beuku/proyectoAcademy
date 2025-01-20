@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styless/ReviewSection.css";
 import Moderacion from "./Moderacion"; 
-import { TextField, TextareaAutosize, } from "@mui/material";
+import { TextField, TextareaAutosize, Rating } from "@mui/material";
 
 
 interface Review {
@@ -16,6 +16,7 @@ const ReviewSection = () => {
   const [name, setName] = useState<string>(""); 
   const [rating, setRating] = useState<number | "">(""); 
   const [comment, setComment] = useState<string>(""); 
+  
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -49,23 +50,14 @@ const ReviewSection = () => {
             size="small"
           />
 
-        <label>Calificación (1-5):</label>
-          <TextField
-            className="input-full-width "
-            fullWidth
-            variant="outlined"
-            type="number"
-            value={rating}
-            onChange={(e) => {
-              const value = Number(e.target.value);
-              if (value >= 1 && value <= 5) {
-                setRating(value); 
-              } else if (e.target.value === "") {
-                setRating(""); 
-              }
-            }}
-            placeholder="Ingrese una calificación..."
-          />
+        <label>Calificación (1 a 5 estrellas):</label>
+        <Rating
+          name="half-rating"
+          value={rating === "" ? 0 : rating} 
+          onChange={(_, newValue) => setRating(newValue ?? "")} 
+          precision={0.5}
+          className="miclase"
+        />
 
         <label>Comentario:</label>
           <TextareaAutosize
@@ -84,9 +76,12 @@ const ReviewSection = () => {
           <li className="review-li" key={review.id}>
             <p className="ESTRELLA">
               <strong>{review.name || "Anónimo"}:</strong>
-              <span className="rating-stars">
-                {"★".repeat(review.rating)}{"☆".repeat(5 - review.rating)}
-              </span>
+              <Rating
+                name="read-only"
+                value={review.rating}
+                readOnly
+                precision={1} 
+              />
             </p>
 
             <p className="Comentario-R">
@@ -94,7 +89,7 @@ const ReviewSection = () => {
             </p>
           </li>
         ))}
-      </ul>
+      </ul> 
     </div>
   );
 };
