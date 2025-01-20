@@ -39,7 +39,7 @@ const ReviewSection = () => {
   return (
     <div className="review-section">
       <form className="review-form" onSubmit={handleSubmit}>
-        <label>Nombre:</label>
+        <label className="texto">Nombre:</label>
             <TextField
             className="input-full-width "
             fullWidth
@@ -50,16 +50,16 @@ const ReviewSection = () => {
             size="small"
             />
 
-        <label>Calificación (1 a 5 estrellas):</label>
+        <label className="texto">Calificación (1 a 5 estrellas):</label>
         <Rating
           name="half-rating"
           value={rating === "" ? 0 : rating} 
           onChange={(_, newValue) => setRating(newValue ?? "")} 
-          precision={0.5}
+          precision={1}
           className="miclase"
         />
 
-        <label>Comentario:</label>
+        <label className="texto">Comentario:</label>
           <TextareaAutosize
             minRows={3}
             value={comment}
@@ -78,7 +78,7 @@ const ReviewSection = () => {
           <li className="review-li" key={review.id}>
             <p className="ESTRELLA">
               <strong>{review.name || "Anónimo"}:</strong>
-              <span className="rating-stars">
+              <span>
                 {"★".repeat(review.rating)}{"☆".repeat(5 - review.rating)}
               </span>
             </p>
