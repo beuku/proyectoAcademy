@@ -1,5 +1,7 @@
 import { Typography, Box } from '@mui/material';
 import "../styless/AvisoLegalStyles.css";
+import IndiceLateral from "./IndiceLateralComponents";
+
 
 function AvisoLegalComponents() {
   return (
@@ -10,8 +12,12 @@ function AvisoLegalComponents() {
 
       <Box className="div">
         <Typography>
-          En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico te informamos que el Titular del sitio web superadmin.es (en adelante, el 'sitio Web'), es Superadmin S.L. (en adelante, 'Superadmin'), con NIF B-26563197 y domicilio social en calle Lardero N7, 5H - 26002 Logroño e inscrita en el Registro Mercantil de La Rioja en el Tomo 851, libro 0, folio 128, hoja LO-18470, inscripción primera.
-          Puedes contactar con Superadmin a través del correo electrónico ayuda@superadmin.es y a través de las formas de contacto que encontrarás en <a href="https://superadmin.es/contacto">https://superadmin.es/contacto</a>
+          En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y
+          Comercio Electrónico te informamos que el Titular del sitio web superadmin.es (en adelante, el 'sitio Web'), es Superadmin S.L.
+          (en adelante, 'Superadmin'), con NIF B-26563197 y domicilio social en calle Lardero N7, 5H - 26002 Logroño e inscrita en el
+          Registro Mercantil de La Rioja en el Tomo 851, libro 0, folio 128, hoja LO-18470, inscripción primera.
+          Puedes contactar con Superadmin a través del correo electrónico ayuda@superadmin.es y a través de las formas
+          de contacto que encontrarás en <a href="https://superadmin.es/contacto">https://superadmin.es/contacto</a>
         </Typography>
       </Box>
 
@@ -20,7 +26,8 @@ function AvisoLegalComponents() {
       </Typography>
       <Box className="div2">
         <Typography>
-          La finalidad del sitio Web de Superadmin tiene por objeto informar sobre Superadmin, las actividades que realiza y de los Servicios que presta, atender las solicitudes de compra y facilitar a los clientes la gestión de los Servicios contratados.
+          La finalidad del sitio Web de Superadmin tiene por objeto informar sobre Superadmin, las actividades que realiza y de
+          los Servicios que presta, atender las solicitudes de compra y facilitar a los clientes la gestión de los Servicios contratados.
         </Typography>
       </Box>
 
@@ -29,8 +36,15 @@ function AvisoLegalComponents() {
       </Typography>
       <Box className="div2">
         <Typography>
-          A través del sitio Web, Superadmin te facilita el acceso y la utilización de diversos contenidos que Superadmin o sus colaboradores han publicado por medio de Internet. A tal efecto, te obligas y comprometes a NO utilizar cualquiera de los contenidos del sitio Web con fines o efectos ilícitos, prohibidos en este Aviso Legal o por la legislación vigente, lesivos de los derechos e intereses de terceros, o que de cualquier forma puedan dañar, inutilizar, sobrecargar, deteriorar o impedir la normal utilización de los contenidos, los equipos informáticos o los documentos, archivos y toda clase de contenidos almacenados en cualquier equipo informático propios o contratados por Superadmin, de otros Usuarios o de cualquier usuario de Internet.
-          En todo caso, Superadmin se compromete a la retirada inmediata de cualquier contenido que pudiera contravenir la legislación nacional o internacional, la moral o el orden público, y ponerlo en conocimiento de las autoridades competentes.
+          A través del sitio Web, Superadmin te facilita el acceso y la utilización de diversos contenidos que Superadmin
+          o sus colaboradores han publicado por medio de Internet. A tal efecto, te obligas y comprometes a NO utilizar
+          cualquiera de los contenidos del sitio Web con fines o efectos ilícitos, prohibidos en este Aviso Legal o por la
+          legislación vigente, lesivos de los derechos e intereses de terceros, o que de cualquier forma puedan dañar, inutilizar,
+          sobrecargar, deteriorar o impedir la normal utilización de los contenidos, los equipos informáticos o los documentos,
+          archivos y toda clase de contenidos almacenados en cualquier equipo informático propios o contratados por Superadmin,
+          de otros Usuarios o de cualquier usuario de Internet.
+          En todo caso, Superadmin se compromete a la retirada inmediata de cualquier contenido que pudiera contravenir
+          la legislación nacional o internacional, la moral o el orden público, y ponerlo en conocimiento de las autoridades competentes.
         </Typography>
       </Box>
 
@@ -80,6 +94,20 @@ function AvisoLegalComponents() {
         misma de las presentes condiciones.
         </Typography>
       </Box>
+           
+      <h1>Avisos Legales</h1>
+
+
+      <div className="div">
+        En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, 
+        de Servicios de la Sociedad de la Información y Comercio Electrónico te informamos que el Titular del sitio web superadmin.
+        es (en adelante, el 'sitio Web'), es Superadmin S.L. (en adelante, 'Superadmin'), 
+        con NIF B-26563197 y domicilio social en calle Lardero N7, 5H - 26002 Logroño e inscrita en el Registro Mercantil de La Rioja en el Tomo 851, 
+        libro 0, folio 128, hoja LO-18470, inscripción primera.
+        Puedes contactar con Superadmin a través del correo electrónico ayuda@superadmin.es y a través de las 
+        formas de contacto que encontrarás en <a href="https://superadmin.es/contacto"> https://superadmin.es/contacto</a>
+      </div>
+      <IndiceLateral />
 
       <Typography variant="h5" component="h2" className="h2" sx={{ margin: "50px auto", maxWidth: "60%", textAlign: "justify" }}>
         6. Exención de responsabilidades

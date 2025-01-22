@@ -1,13 +1,13 @@
 
 import Footercomponents from "../components/Footercomponents"
 import Sobrejuego from "../components/Sobrejuego"
-import "../Carpetacomponente2/RealHeader"
-import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader"
+import  "../components/RealHeader"
+import Header from  "../components/RealHeader"
 
 function SobreEljuego() {
     return (
       <> 
-        <ComponenteDeComponenteHeader/>
+        <Header/>
         
         <Sobrejuego />
         

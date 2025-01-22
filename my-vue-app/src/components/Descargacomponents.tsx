@@ -1,5 +1,6 @@
 import "../styless/DescargaStyles.css";
 import ReviewSection from "../components/ReviewSectionComponents";
+import { Box, Typography } from '@mui/material';
 
 interface DescargaOptionProps {
   title: string;
@@ -10,45 +11,51 @@ interface DescargaOptionProps {
 
 const DescargaOption = ({ title, imgSrc, link, alt }: DescargaOptionProps) => (
   <a href={link} target="_blank" rel="noopener noreferrer">
-    <h2>{title}</h2>
-    <img src={imgSrc} width="250" alt={alt} />
+    <Typography variant="h2" className="opciones">
+      {title}
+    </Typography>
+    <img src={imgSrc} width="200" alt={alt} />
   </a>
 );
 
 const Instrucciones = ({ texto }: { texto: string }) => (
   <div className="indicar">
-    <h2>{texto}</h2>
+    <Typography variant="h2">{texto}</Typography>
   </div>
 );
 
 function Descargacomponents() {
   return (
-    <body className="body-descarga">
-      <h1 className="titulo-D"> ¿Como Descargar? </h1>
-      <h2 className="opciones">Seleccione una de las opciones de descarga a continuación</h2>
+    <Box  className="body-descarga">
+      <Typography variant="h4" className="titulo-D">
+        ¿Como Descargar?
+      </Typography>
+      <Typography variant="h3"className="opciones">
+        Seleccione una de las opciones de descarga presente a continuación
+      </Typography>
       
-      <h2 className="Descarga">
+      <Box  className="Descarga">
         <DescargaOption
-          title="Steam"
+          title=""
           imgSrc="src/assets/steam.jpg"
           link="https://store.steampowered.com/?l=spanish"
-          alt="Steam"
+          alt=""
         />
         <DescargaOption
-          title="Epicgame"
+          title=""
           imgSrc="src/assets/epic.jpg"
           link="https://store.epicgames.com/es-ES/"
           alt="Epic Games"
         />
         <DescargaOption
-          title="Nintendo"
+          title=""
           imgSrc="src/assets/nintendo.jpg"
           link="https://www.nintendo.com/es-cl/store/games/"
           alt="Nintendo"
         />
-      </h2>
+      </Box >
 
-      <Instrucciones
+      <Instrucciones 
         texto="En Steam: busque el juego de su gusto y presione, ya dentro del juego seleccionado agregue al carrito, a continuación busque y presione la opción ver el carrito y luego continuar con el pago y siga las indicaciones que le aparecerán"
       />
       <Instrucciones
@@ -58,11 +65,13 @@ function Descargacomponents() {
         texto="En Nintendo: busque el juego de su gusto y presione, ya dentro del juego seleccionado, presione descarga directa, coloque la contraseña de su cuenta y siga las indicaciones"
       />
 
-      <div className="review-section">
-        <h2 className="h2R">Reviews de Descargas</h2>
+      <Box className="review-section">
+        <Typography variant="h2"  className="h2R">
+          Reviews de Descargas
+        </Typography>
         <ReviewSection />
-      </div>
-    </body>
+      </Box>
+    </Box>
   );
 }
 

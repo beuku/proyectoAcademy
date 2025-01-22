@@ -3,7 +3,7 @@ import AspectRatio from '@mui/joy/AspectRatio';
 import FormularioComponents from "./FormularioComponents";
 import { useEffect, useState } from 'react';
 import { filtrarComentario } from './Moderacion';
-import ComponenteDeComponenteHeader from "../Carpetacomponente2/RealHeader";
+import Header from  "../components/RealHeader"
 
 
 function Comunidadcomponents() {
@@ -26,7 +26,7 @@ function Comunidadcomponents() {
             throw new Error(`Error: ${response.status}`);
           }
           const result = await response.json();
-          setFormularios(result); // Guardar los datos en el estado
+          setFormularios(result);
           } catch (error) {
           console.error("Error al obtener los formularios:", error);
         }
@@ -38,7 +38,7 @@ function Comunidadcomponents() {
 
     return (
       <>
-        <ComponenteDeComponenteHeader />
+        <Header />
         <FormularioComponents />
         <body className="body-Comunidad">  
         
@@ -49,7 +49,7 @@ function Comunidadcomponents() {
                 <div key={index} className="cajas">
                   <AspectRatio className="CAJA" sx={{ width: 1000 }}>
                     <img  className="fanarts"
-                      src={`http://localhost:4000${form.image}`} // Ruta completa de la imagen
+                      src={`http://localhost:4000${form.image}`}
                       alt="Imagen subida"
                     />
                   </AspectRatio>
@@ -63,7 +63,7 @@ function Comunidadcomponents() {
                       placeholder="Escribe tu comentario..."
                     />
                 </div>
-              ))};
+              ))}
             </div>    
           </div>
         </body>

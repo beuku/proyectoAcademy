@@ -81,10 +81,11 @@ div.CAJA{
     border-radius: 10px;
     margin-top: 20px;
     display: inline-block;
-    color: #ffffff;
+    color: #f8dfde;
     font-size: 40px; 
     font-weight: bold; 
     text-align: center; 
+    
     
 }
 .MuiTypography-root.css-rizt0-MuiTypography-root{
@@ -92,7 +93,6 @@ div.CAJA{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
-    max-width: 700px;
-    color: #ffffff;
-    
+    color: #f8dfde;
+    margin: 50px;
 }

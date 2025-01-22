@@ -12,6 +12,7 @@ div.padremargen{
 
    display: flex;
    align-items: flex-start; 
+  
 
 }
 
@@ -58,6 +59,7 @@ div.margen2 {
     font-size: 25px;
     margin-top: 50px;
     color: #f8dfde;
+    text-align: center;
     
   }
   

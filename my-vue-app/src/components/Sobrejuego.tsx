@@ -24,6 +24,7 @@ function Sobrejuego() {
         <Typography variant="h1" className="titulo-p">
           Modo de juego
         </Typography>
+
         <Typography variant="body1" className="TEXTO">
           Albion Online es un juego de fantasía MMORPG sandbox que tiene una economía manejada por los jugadores,
           un sistema de combate sin clases,
