@@ -1,28 +1,74 @@
-h1.titulo-D{
+h4.titulo-D {
     margin-top: 100px;
-    background-color:#1e9181;
+    background-color: #1e9181;
     padding: 20px;
     color: #ffffff;
-    
-}
-body.body-descarga{
+    text-align: center;
+    font-size: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  
+  .body-descarga {
     text-align: center;
     background-image: url(../assets/imagenfondoimagen.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     margin: 0; 
-}
-div.indicar{
-    margin: 20px auto;
-    border: solid rgba(68, 236, 222, 0.26);
-    margin-left: 300px;
-    margin-right: 300px;
+  }
+  
+  .indicar {
+    margin-top: 90px;
+    background-color: rgb(30, 99, 76);
+    padding: 10px;
+    margin-right: 40px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
     margin-bottom: 20px;
-}
-h2.Descarga{
+    margin-left: 200px;
+    margin-right: 200px;
+    border-color: #094e45;
+
+  }
+
+  div.Descarga {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 100px;
+  }
+  
+  h3.opciones {
     margin-top: 60px;
+    background-color: rgb(30, 99, 76);
+    padding: 10px;
+    margin-right:auto;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 350px;
+    margin-right:350px ;
 }
-h2.opciones{
-    margin-top: 25px;
+
+
+h2.MuiTypography-h2{
+    
+    font-size: 40px;
+    margin:auto;
+    display:inline-table;
 }
+  
+.MuiTypography-h2.h2R {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #1e9181;
+    border-radius: 20PX;
+    padding: 20px;
+  }
+  
