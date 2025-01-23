@@ -85,7 +85,8 @@ p.somos{
 .comentario::placeholder {
     color: #e2dfdf;
   }
-h1.Comunidad{
+h2.Comunidad{
+    width: 100%;
     margin-top: 100px;
     background-color: #1e9181;   
     padding: 20px;         
